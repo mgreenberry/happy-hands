@@ -1,5 +1,5 @@
-# British Sign Langauge
-> This website aims to introduce British Sign Language to a new user, what it is, why it is needed, and give some sample sign language files and a downloadable file.
+# HAPPY HANDS
+> Helping Children Communicate
 
 ## Table of contents
 1 [UX](#ux)
@@ -29,29 +29,31 @@
 
 ## UX
 This website aims are as follows: -
-* To expalain what Britsh Sign Language
-* To provide facts and figures to a new user
-* To introduce users to British Sign Langauge and Fingerspelling
+* To introduce Happy Hands, a child friendly class in British Sign Language
+* To provide British Sign Language lessons to children.
+* To explain the differences between British Sign Language (BSL), Signed Supported English (SSE) and Makaton
 * To provide a contact form for more information
 * To provide a downloadable pdf fingerspelling document
+* To demonstrate some sample lessons on video
+* To provide a BSL translation of all internet pages.
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 #### Project Goals
-The Primary Goal of Deaf Awareness is to provide a easy to understand website for the user to understand the issues that deaf people face. 
+The Primary Goal of HAPPY HANDS is to provide a easy to understand website for the user learn British Sign Language (BSL)
 
-The Deaf Awareness website is aimed at people who have no idea about being deaf and for those who would like to learn sign language.
+The website is created for absolute beginners in mind who are unaware of the differences in BSL, SSE and Makaton.
 
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 ### User Goals
-* A home page introducing British Sign Language
+* A home page introducing HAPPY HANDS
 * User friendly menus
 * Easy to read content
-* Timeline of Sign Language in the UK
+* Sample Lessons for various age ranges
 * Contact form for users to ask for more information
 * BSL fingerspelling document to download
 
-Deaf Awareness will do this by:-
-* Providing easy to ready and clear information on Deaf Awareness
+HAPPY HANDS will do this by:-
+* Providing easy to ready and clear information on BSL
 * Navigation Menus which enables the user to use the website easily
 
 provide a list of User Stories, with the following general structure:
@@ -63,7 +65,9 @@ provide a list of User Stories, with the following general structure:
 ### User Stories
 
 ### Design Choices
+I undertook a number of steps to design this website. I have created a breakdown of tasks completed each day in this diary - [diary](website-design-steps)
 
+I have attached mock ups of the original ideas and final design ideas before I used Wireframes to create a prototype.
 ### Wireframes
 
 ## Features
@@ -125,7 +129,7 @@ you should also describe how to run your code locally.
 ### Content
 The text for section Y was copied from the Wikipedia article Z
 ### Media
-The Sign Language images and Fingerspelling pdf document were sourced from ....
+The BSL Alphabet pdf document were sourced from....
 
 photos used in this site were obtained from ...
 ### Code
