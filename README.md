@@ -1,5 +1,5 @@
 # British Sign Langauge
-> This website aims to describe British Sign Language, what it is, the users, and give some sample sign language files and a downloadable file.
+> This website aims to introduce British Sign Language to a new user, what it is, why it is needed, and give some sample sign language files and a downloadable file.
 
 ## Table of contents
 1 [UX](#ux)
@@ -118,15 +118,16 @@ In particular, you should provide all details of the differences between the dep
 Different values for environment variables (Heroku Config Vars)?
 Different configuration files?
 Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
 ### How to implement this locally
-
+you should also describe how to run your code locally.
 ## Credits
 
 ### Content
 The text for section Y was copied from the Wikipedia article Z
 ### Media
-The photos used in this site were obtained from ...
+The Sign Language images and Fingerspelling pdf document were sourced from ....
+
+photos used in this site were obtained from ...
 ### Code
 
 ### Acknowledgements
