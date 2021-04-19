@@ -26,6 +26,15 @@ monospace;
     height:0;
 
 }
+.happy-hands {
+    height: 80px;
+    width: 80px;
+    font-size: 60px;
+}
+
+nav img {
+    font-size: 60px;
+}
 
 .map-responsive iframe{
     left:0;
