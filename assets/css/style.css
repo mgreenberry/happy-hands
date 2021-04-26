@@ -11,11 +11,25 @@
     z-index: 2 (not sure if needed); Background colour wanted for readability.*/
 }
 
+/*BUTTONS*/
+.btn {
+    background-color: #FFFB0F;
+    border: 2px solid navy;
+    border-radius: 2rem;
+    color: #2F0FFF;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.btn-da {
+    margin-bottom: .5rem;
+    ;
+}
+
 /*DEAF AWARENESS CALLOUT*/
 .deaf-awareness-link {
     background-color: aqua;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .deaf-awareness-link p {
@@ -32,9 +46,10 @@
     right: 0;
     left: 0;
     z-index: 1030;
-}
-*/
+}*/
+
 .navbar-toggler-icon {
+    /* From Bootstrap*/
     display: inline-block;
     width: 5em;
     height: 5em;
@@ -61,13 +76,16 @@ nav img {
 
 /*HEADING SECTION*/
 /*hero-image section CSS for image and strapline*/
-#main-picture {
-    background: url(../images/logos-images/happy-hands.png) no-repeat center center;
+
+.darken {
+    /*css-tricks.com - want picture to be no-repeat center center?*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.40),
+            rgba(0, 0, 0, 0.40)),
+        url(../images/logos-images/happy-hands.png);
     background-size: cover;
     height: 36rem;
     width: 100%;
     position: relative;
-    /*color: rgba(0, 0, 0, 0.5) need the background image adjusted to make text stand out*/
 }
 
 #strapline {
@@ -97,8 +115,10 @@ nav img {
 /*subheading images and content*/
 .container {
     background-color: lightblue;
-    padding-right: 5px;
-    padding-left: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 1px solid yellow;
+    position: relative;
 }
 
 .background {
@@ -106,23 +126,21 @@ nav img {
 }
 
 .subheading-image {
-    height: 4rem;
-    width: 4rem;
-    font-size: 4rem;
-    margin-top: 0;
-    text-align: center;
-    padding-right: 1rem;
-    background-color: yellow;
-    color: rgba(255, 255, 0, 0.25)
+    height: 30rem;
+    width: 100%;
+    margin-bottom: 1rem;
 }
 
 #subheading-text {
-    margin-top: 1rem;
+    margin: 1rem;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 800;
 }
 
 h2 {
     font-size: 3rem;
-    background-color: yellow;
+
 }
 
 .link-text {
@@ -150,7 +168,7 @@ p {
 li {
     font-size: 1.6rem;
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 }
 
 /*FOOTER*/
@@ -160,25 +178,4 @@ li {
 
 #copyright {
     font-size: 1rem;
-}
-
-/*BUTTONS*/
-.btn-warning {
-    background-color: #FFFB0F;
-    border-color: navy;
-    border: 2px solid;
-    border-radius: 2rem;
-    color: #2F0FFF;
-    width: 15rem;
-}
-
-.btn-bsl-source {
-    margin-bottom: 0;
-    height: 4rem;
-    vertical-align: top;
-    
-}
-
-.btn-da-callout {
-    height: 2rem;
 }
