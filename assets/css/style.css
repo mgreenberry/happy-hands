@@ -149,6 +149,12 @@ h2 {
     text-align: center;
 }
 
+.small {
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+}
+
 .text-dark {
     text-align: center;
     font-size: 2.4rem;
@@ -176,4 +182,19 @@ li {
 
 #copyright {
     font-size: 1rem;
+}
+
+.video {
+    /* Credit - https://stackoverflow.com/a/54924505 */
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
