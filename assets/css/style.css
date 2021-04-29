@@ -27,6 +27,15 @@
     ;
 }
 
+/*NOT WORKING .btn-reset {
+    background-color: navy;
+    border: 2px solid #FFFB0F;
+    border-radius: 2rem;
+    color: #FFFB0F;
+    margin-bottom: 1rem;
+    text-align: center;
+}*/
+
 /*DEAF AWARENESS CALLOUT*/
 .deaf-awareness-link {
     background-color: aqua;
@@ -132,7 +141,7 @@ nav img {
     margin-bottom: 1rem;
 }
 
-#subheading-text {
+.subheading-text {
     margin: 1rem;
     text-align: center;
     vertical-align: middle;
@@ -198,4 +207,9 @@ li {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+label {
+    display: inline-block;
+    padding-bottom: 2rem;
 }
