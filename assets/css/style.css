@@ -124,6 +124,11 @@ nav img {
     font-size: 2rem;
 }
 
+.nav-item {
+    margin-right: .25rem;
+    margin-left: .25rem;
+}
+
 /*HEADING SECTION*/
 /*hero-image section CSS for image and strapline*/
 
@@ -213,6 +218,18 @@ label {
 }
 
 /*FOOTER*/
+.yellow {
+    color: yellow;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.white {
+    color: #FFF;
+    text-align: center;
+    vertical-align: middle;
+}
+
 .container .footer-background {
     background-color: rgba(0, 78, 255, 0.5)
 }
