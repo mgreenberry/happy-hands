@@ -59,13 +59,14 @@ li {
     margin-bottom: 1rem;
     text-align: center;
     font-size: 1.5rem;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
-.btn-da {
+/*.btn-da {
     margin-bottom: .5rem;
-    font-size: x-small;
-}
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}*/
 
 .btn-reset {
     background-color: navy;
@@ -89,9 +90,6 @@ li {
 .deaf-awareness-link {
     background-color: aqua;
     margin: 0;
-}
-
-.deaf-awareness-link p {
     font-size: 1.6rem;
     margin-top: 0;
     margin-bottom: 0;
@@ -220,12 +218,6 @@ label {
 /*FOOTER*/
 .yellow {
     color: yellow;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.white {
-    color: #FFF;
     text-align: center;
     vertical-align: middle;
 }
