@@ -1,37 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
 
-/*Font CSS required - font-family: 'Roboto Mono', monospace; & font-family: 'Poppins', sans-serif;*/
+/*Font CSS required - font-family: 'Roboto', monospace; & font-family: 'Poppins', sans-serif;*/
 /*MAIN SITE*/
 /*Website defaults changed*/
 * {
     font-size: 10px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', monospace;
 }
 
 /*Heading and Paragraph font sizes*/
 h1 {
     font-size: 8.4rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 h2 {
     font-size: 7.2rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 h3 {
     font-size: 6rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 h4 {
     font-size: 4.8rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 h5 {
     font-size: 3.6rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 h6 {
     font-size: 2.4rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 p {
