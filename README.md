@@ -190,19 +190,94 @@ As I wanted to include this on all formats and devices I created my wireframes a
 * [download.html](/assets/images/readme-images/download.html.png)
 * [contact-us.html](/assets/images/readme-images/contact-us.html.png)
 
-## Features
+## Existing Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+### All pages
 
-### Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+Every page contains the following features at the top of the website as standard: -
+* A [logo](/assets/images/logos-images/happy-hands.jpg) of Happy Hands to the left of the Navigation bar. Allows all users back to the home page by clicking the logo.
+* Text as a header reading "Happy Hands"
+* A responsive navigation bar, which reduces into a 'burger' navigation bar on mobiles. Allows all users to click on the page they want and access said page easily. Each navigaiton bar has the following links: -
+  1. index.html - allows users to access the home page by clicking the home (index.html) text
+  2. lessons.html - allows users to access the lessons offered by the business by clicking the lessons text
+  3. tutors.html - allows users to access the tutors and see who teaches the lessons and the prices by clicking the tutors text
+  4. free-content.html - allows users to access the free content available on the website and to download some free resources by clicking the Free Content page
+  5. contact-us.html - allows users to make contact with the business by fillign in a form and pressing submit. This will open a success page with a thank you message. Users can also clear the form if they make errors and re-submit correct details if required.
+* A hero image, or main image of Happy Hands.
+* A strapline, or header, which gives the title of the page being visited
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+Every page contains the following features in the footer: -
+* A logo of Happy Hands to the left of the footer. Allows all users back to the home page by clicking the logo.
+* Text as a header reading "Contact Details"
+* A responsive navigation bar, which reduces into a 'burger' navigation bar on mobiles. Allows all users to click on the page they want and access said page easily. Each navigaiton bar has the following links: -
+  1. Address and link to a map which shows the address. Allows all users to navigate to a google map showing business address.
+  2. Telephone No and link to make an internet phone call. Allows all users to make a phone call if their browser allows this function.
+  3. Zoom link which directs to personal zoom meeting. Allows all users to join a zoom call with the business owner for those users who are hearing impaired.
+* Copyright for Enabled Services and Happy Hands
+* Social Media tags for Facebook, Instagram, Twitter and linkedin - allows users to interact and make contact with the business by clicking chosen social media platform
 
-### Features Left to Implement
-Another feature idea
+Also every page contains a yellow border to separate each section
+
+### Home Page
+* This page contains 3 sections as follows: -
+  1. **Communicate with British Sign Language** - An image of BSL. This allows users to understand what is being taught by the business. The additional text explains what Happy Hands offer regarding British Sign Language (BSL) content.
+  2. **Our Courses** - An image of a women being taught BSL via video conferencing. This allows users to understand that the lessons are online. The text supports this message with additional information.
+  3. **Our Company** - An image of some hands doing the love sign (ASL). This section is to briefly introduce the company to the user.
+* There is a call-out button under the **Our Course** and **Our Company** sections to direct users to other pages in the website. The first ca button allows users to find out more information about the lessons and prices of the courses offered. The second ca button allows users to find out more about the tutors that teach the BSL classes. Both buttons require user input to work.
+
+### Lessons
+* This page contains 4 sections as follows: -
+  1. **Children's Courses Under 7** - An image of a small girl doing BSL. This allows users to quickly identify which course is most suitable for them or thier child/children. The additional text and sample videos provide further information and confirmation of the users and business owner's desired expectations.
+  2. **Children's Courses 8 to 13** - An image of a young girl doing BSL. This allows users to quickly identify which course is most suitable for them or thier child/children. The additional text and sample videos provide further information and confirmation of the users and business owner's desired expectations.
+  3. **Young Adult Courses 14 to 18** - An image of a teenage girl doing BSL. This allows users to quickly identify which course is most suitable for them or thier child/children. The additional text and sample videos provide further information and confirmation of the users and business owner's desired expectations.
+  4. **Adult Courses** - An image of an muslim woman learning BSL. This allows users to see that the adult courses are suitable for any adults, any age, and any religion, without discrimination. The additional text and sample videos provide further information and confirmation of this.
+* There is a call-out butotn at the bottom of this page under the **Adult Courses**. This allows users to access the free content, such as more video content, and downloadable packs such as fingerspelling/alphabet charts.
+
+### Tutors
+* This page contains 3 sections as follows: -
+  1. **Teacher Michael** - An image of Michael. This allows users to see who will be teaching the **Young Adult** and **Adult** lessons. The additional text allows users to quickly identify what experience and qualifications the tutor has.
+    * There are also reviews under the text. This allows users to see what other users have said about the lessons and business.
+  2. **Teacher Becky 'B'** - An image of Rebekah or 'Teacher B'. This allows users to see who will be teaching the **Children's Courses up to 13** lessons. The additional text allows users to quickly identify what experience and qualifications the tutor has.
+    * * There are also reviews under the text. This allows users to see what other users have said about the lessons and business.
+* **Our Prices** - This allows users to see how long and how much individual lessons cost. These prices are slightly lower than average in this field. 
+* There is a call-out button under the **Our Prices** which encourages the user to contact the business. This allows the user to contact the business to find out more information or preferably to book lessons.
+
+### Free Content
+* This page contains 2 sections as follows: -
+  1. **Free Alphabet/Fingerspelling Downloadable sheets**. This allows users to download, save and review this free downloadable content. This will enable users to practice some aspects of BSL and the aim of the business is to whet the users appetite to learn more
+    * There is a call-out button under this section which allows users to access more free content from a supporting website. This allows users to download more content and possibly make purchases from the new site. (Presently this links to an outside company that supplied the free content in the website)
+  2. **Free Video Lesson**. This allows users to watch and learn how to do numbers in BSL. The user also can control this video from YouTube using the buttons contained in the embedded file. This lends itself to a better user experience.
+
+### Contact Us
+* This page contains 1 section as follows: -
+  1. A contact form with 'First Name', 'Last Name', 'Email Address' and 'Message' fields. This allows the user to input their information and find out more details, ask questions or book lessons with the business.
+* There are 2 call-out buttons under this form. The first button **Reset** resets the form in case of user input error. The second button **Submit** allows the user to send their form to the business. On doing this they will be taken to a new page to show that submitting the form has been successful. Users will need to provide information in all fields, with a valid @ email address in order to be able to submit forms. This allows the business to only recieve valid customer comments.
+
+### success
+* This page is not linked to the **Home Page** or **Navigation Bar**
+* This page is only accessed on completion of a valid and correctly filled in form which the user has submitted on the #contact-us.html form.
+* This page contains the following section: -
+  * A Thank You image and message. This allows the user to know that they have submitted thier form sucessfully on the contact-us.html form section.
+  * There is 1 call-out button under this form. This allows the user to return to the form page that they last interacted with
+
+### 404
+* This page is not linked to any other page in the website
+* This page is only accessed if a user types an incorrect web address in the browser navigation bar
+This page contains the following section: -
+  * A humourous message notifying the user of an error. This then allows the user to recognise that the web address doens't exist.
+  * There is 1 call-out button in this section. This allows the user to return to the home page of the main website - [Happy Hands](https://mgreenberry.github.io/happy-hands/)
+
+## Features Left to Implement
+* To enable users to book lessons - not able to implement this at present
+* To enable users to pay in advance for lessons - requires some form of payment and associated security
+* To provide more interactive content, especially for children such as games, interactive packs/content and craft ideas - unsure of how to implement this
+* To provide an option to view the whole website in British Sign Language - unsure how this could be implemented
+* A more detailed contact form and some sort of CAPTCHA button - think JavaScript required
+* A more responsive form sent - JavaScript required
+* Add Terms and Conditions, Privacy pages
+* A log in/Register form
+* A members only area
+* New content for returning members.
 
 ## Technologies Used
 ### Languages
@@ -243,7 +318,7 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-## Development
+## Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
