@@ -1,4 +1,4 @@
-![image](images/logos-images/happy-hands.jpg)
+![image](/assets/images/logos-images/happy-hands.jpg)
 
 # HAPPY HANDS
 > ## Helping Children Communicate
@@ -15,31 +15,31 @@ The website targets both parents/guardians and their children, along with other 
 
 This website must be engaging for the target audience and contain the information needed to complet the goals of the business owner and site visitors. It must also stand out and be memorable for future visits and for recommendations to other families or potential users.
 
-![Mockup](assets/images/readme-images/website-various-devices)
+![Mockup](/assets/images/readme-images/website-various-devices.png)
 
 ## Table of contents
 1. [UX](#ux)
-* [Project Goals](#project-goals)
-* [User Stories](#user-stories)
-* [Design Choices](#design-choices)
-* [Wireframes](#wireframes)
+  * [Project Goals](#project-goals)
+  * [User Stories](#user-stories)
+  * [Design Choices](#design-choices)
+  * [Wireframes](#wireframes)
 
 2. [Features](#features)
-* [Existing Creative](#existing-creative)
-* [Features Left To Implement](#left-to-implement)
+  * [Existing Creative](#existing-creative)
+  * [Features Left To Implement](#left-to-implement)
 
 3. [Technologies Used](#technologies)
 
 4. [Testing](#testing)
 
 5. [Deployment](#deployment)
-* [How to implement this locally](#implement)
+  * [How to implement this locally](#implement)
 
 6. [Credits](#credits)
-* [Content](#content)
-* [Media](#media)
-* [Code](#code)
-* [Acknowledgements](#acknowledgements)
+  * [Content](#content)
+  * [Media](#media)
+  * [Code](#code)
+  * [Acknowledgements](#acknowledgements)
 
 ## UX (User Experience)
 
@@ -118,63 +118,112 @@ I've chosen the font-family: ['Roboto'](https://fonts.google.com/specimen/Roboto
 For this website I chose a colour pallette that matched similar websites that are colourful and child friendly. The background colour is Aqua, the headers is navy and menus, some text and buttons are yellow as a good contrast to the main colour.
 
 The colours I picked are as follows: -
-![Coolors Palette](assests/images/readme-images/website-colours.pdf)
+![Coolors Palette](/assets/images/readme-images/website-colours.jpg)
 
-Format: ![Coolors Palette](https://coolors.co/cbf3f0-ffe66d-3066be)
+Format: [Coolors Palette](https://coolors.co/cbf3f0-ffe66d-3066be)
 
 #### Imagery
 
-All pages:
-
-Happy Hands: [Hero Image](assets/images/logos-images/happy-hands.jpg) - Happy Hands was designed by Michael Greenberry using the Sketches Pro app on iPad by Tayashi.
-
-index.html
-
-BSL image: Image by [Cath Smith](assets/images/logos-images/bsl-3.jpg) from www.letssign.co.uk.
-
-Third Image: Sign Hands Image by [Darelle](https://pixabay.com/users/darelle-427220/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=541830") from [Pixabay](https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=541830")
-
-download.html
-
-Fingerspelling/Alphabet download and images: [left](assets/images/logos-images/lh-alphabet.jpg) and [right](assests/images/logos-images/rh-alphabet.jpg) hand alphabet fingerspelling documents/images by [Cath Smith](https://www.letssign.co.uk)
-
-success.html
-
-Thankyou image on success page: [Cath Smith](assets/images/logos-images/thankyou.jpg) from www.letssign.co.uk
-
 All other images were sourced from www.shutterstock.com as part of a free trial to download 10 images. 
 
+* All pages:
+
+  * Happy Hands: [Hero Image](assets/images/logos-images/happy-hands.jpg) - Happy Hands was designed by Michael Greenberry using the Sketches Pro app by Tayashi on Apple iPad.
+
+* index.html
+
+  1. BSL image: Image by [Cath Smith](assets/images/logos-images/bsl-3.jpg) from www.letssign.co.uk.
+  2. Sign Language Deaf Disabled People Video Conference: Photo by [Andrey Popov](https://www.shutterstock.com/g/apops) from [Shutterstock](https://www.shutterstock.com/image-photo/sign-language-deaf-disabled-people-video-1813787960)
+  3. Hands Sign Languagel Circle: Photo by [Darelle](https://pixabay.com/users/darelle-427220/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=541830) from [Pixabay](https://pixabay.com/photos/hands-sign-language-circle-541830/)
+
+* lessons.html
+  1. Little girl smiling with love hand: Photo by [Wisansaya Suksong](https://www.shutterstock.com/g/ampsuksong) from [Shutterstock](https://www.shutterstock.com/image-photo/portrait-cute-little-girl-smiling-love-1158105028)
+  2. Smiling indian latin deaf child: Photo by [insta_photos](https://www.shutterstock.com/g/instaphotos) from [Shuttercock](https://www.shutterstock.com/image-photo/smiling-indian-latin-deaf-disabled-child-1814238713)
+  3. Smiling teenage girl deaf: Photo by [Leoschka](https://www.shutterstock.com/g/Leoschka) from [Shuttercock](https://www.shutterstock.com/image-photo/smiling-teenage-girl-deaf-disabled-child-1943311720)
+  4. Young black female in hijab: Photo by [Prostock-studio](https://www.shutterstock.com/g/prostock_studio) from [Shuttercock](https://www.shutterstock.com/image-photo/online-education-young-black-female-teacher-1859693998)
+  * Video contect from business owner
+
+* tutors.html
+  * All content from business owner
+
+* download.html
+
+  1. Fingerspelling/Alphabet download and images: [left](assets/images/logos-images/lh-alphabet.jpg) and [right](assests/images/logos-images/rh-alphabet.jpg) hand alphabet fingerspelling documents/images by [Cath Smith](https://www.letssign.co.uk)
+
+* success.html
+
+  1. Thankyou image on success page: [Cath Smith](assets/images/logos-images/thankyou.jpg) from www.letssign.co.uk
+
+### Icons
+
+All icons for Social Media were sourced form [Font Awesome](https://fontawesome.com/)
+
 ### Wireframes
-I undertook a number of steps to design this website. I have created a breakdown of tasks completed each day in this [document](website-design-steps)
+I undertook a number of steps to design this website. I have created a breakdown of tasks completed each day in this [document](/assets/images/readme-images/website-design-steps)
 
 I have attached mock ups of the original ideas and final design ideas before I used Wireframes to create a prototype.
 
+I used Balsamiq to create my wireframes. I chose to do a mobile version first with the pages I wanted and then create a desktop version after. I did this as this was going to be the way I designed my website, mobile first.
+
+The following wireframes:
+
+Samsung Phone
+* [index.html](/assets/images/readme-images/hhmobile-index.png)
+* [lessons.html](/assets/images/readme-images/hhmobile-lessons.png)
+* [faqandcontact.html](/assets/images/readme-images/hhmobile-faq-contactus)
+
+Apple iPad
+* I didn't create an iPad version before I started my website but once I had an index.html, I went back to finalise my design.
+
+Generic laptop
+* [index.html](/assets/images/readme-images/hhdesktop-index.png)
+* [lessons.html](/assets/images/readme-images/hhdesktop-lessons.png)
+* [faqandcontact.html](/assets/images/readme-images/hhdesktop-faq-contact)
+
+Once I started to create my website I realised I needed a lot more content and that I wanted to have a separate page for the contact-us section. I also decided to add a tutor.html, success.html for the form and a 404.html for wrong address input:
+
+As I wanted to include this on all formats and devices I created my wireframes again for all pages and added the following to show mobile, iPad and desktop:
+
+* [index.html](/assets/images/readme-images/index.html.png)
+* [lessons.html](/assets/images/readme-images/lessons.html.png)
+* [tutors.html](/assets/images/readme-images/tutors.html.png)
+* [download.html](/assets/images/readme-images/download.html.png)
+* [contact-us.html](/assets/images/readme-images/contact-us.html.png)
+
 ## Features
-Features
+
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
-Existing Features
+### Existing Features
 Feature 1 - allows users X to achieve Y, by having them fill out Z
 ...
 For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-Features Left to Implement
+### Features Left to Implement
 Another feature idea
-### Existing Creative
-
-### Features Left To Implement
 
 ## Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-* [HTML](https://en.wikipedia.org/wiki/HTML5)
-* [CSS](https://en.wikipedia.org/wiki/CSS)
-* [JavaScript](https://www.javascript.com/)
-* [Bootstrap](https://getbootstrap.com/)
-* [Wireframes with Balsamiq](https://balsamiq.com/)
-* [Github](https://github.com/)
-* [Gitpod](https://gitpod.io/)
+### Languages
+* [HTML](https://en.wikipedia.org/wiki/HTML5) 
+Used as the main markup language of the website content
+* [CSS](https://en.wikipedia.org/wiki/CSS) Used to style the content of the website
+* [JavaScript](https://www.javascript.com/) Used with Bootstrap for the Navigation menu at the top and bottom of the website
+### Framework Library
+* [Bootstrap](https://getbootstrap.com/) Used for a mobile first responsive website, display properties such as grid layout, preset css such as for containers, forms, etc
+### Tools
+* [Wireframes with Balsamiq](https://balsamiq.com/) To create mockups of the website to aid creation
+* [Github](https://github.com/) To store and host source code
+* [Gitpod](https://gitpod.io/) To write the code 
+* [Font Awesome](https://fontawesome.com/) for Social Media buttons
+* [Google Fonts](https://fonts.google.com) for the fonts used in the website
+* [Coolors](https://coolors.co/) to source the main colours for the website
+* [Favicons](https://www.favicon.cc) to create a favicon for the tab and website title
+### Testing Tools
+* [hmtl validation](https://validator.w3.org) to check the html code had no errors
+* [css validation](https://jigsaw.w3.org/css-validator/) to check the css code had no errors
+* [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en) an online validation tool that helps to improve performance and quality of the webpage with helpful tips to improve as each html page is scored.
 
 ## Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
@@ -193,6 +242,7 @@ In addition, you should mention in this section how your project looks and works
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
 ## Development
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
@@ -201,8 +251,10 @@ In particular, you should provide all details of the differences between the dep
 Different values for environment variables (Heroku Config Vars)?
 Different configuration files?
 Separate git branch?
+
 ### How to implement this locally
 you should also describe how to run your code locally.
+
 ## Credits
 
 ### Content
