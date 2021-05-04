@@ -44,7 +44,7 @@ p {
     font-size: 1.6rem;
 }
 
-.small {
+.small-text {
     font-size: 1rem;
     color: black;
     text-align: center;
@@ -57,11 +57,12 @@ li {
 }
 
 /*BUTTONS*/
-.btn {/*influenced by Bootstrap*/
+.btn {
+    /*influenced by Bootstrap*/
     background-color: #FFFB0F;
-    border: 2px solid navy;
+    border: 2px solid #3066BE;
     border-radius: 2rem;
-    color: #2F0FFF;
+    color: #3066BE;
     margin-bottom: 1rem;
     text-align: center;
     font-size: 1.5rem;
@@ -69,7 +70,7 @@ li {
 }
 
 .btn-reset {
-    background-color: navy;
+    background-color: #3066BE;
     border: 2px solid #FFFB0F;
     border-radius: 2rem;
     color: #FFFB0F;
@@ -78,16 +79,16 @@ li {
 }
 
 .btn-submit {
-    background-color: yellow;
-    border: 2px solid navy;
+    background-color: #FFE66D;
+    border: 2px solid #3066BE;
     border-radius: 2rem;
-    color: navy;
+    color: #3066BE;
     margin-bottom: 1rem;
     text-align: center;
 }
 
-/*DEAF AWARENESS CALLOUT*/
-.deaf-awareness-link {
+/*SPECIAL INFORMATION*/
+.special-information {
     background-color: aqua;
     margin: 0;
     font-size: 1.6rem;
@@ -147,8 +148,8 @@ nav img {
     position: relative;
 }
 
-#strapline {
-    color: yellow;
+.strapline {
+    color: #FFE66D;
     text-align: center;
     position: absolute;
     border: 1rem;
@@ -156,13 +157,13 @@ nav img {
     width: 100%;
 }
 
-#strapline h1 {
+.strapline h1 {
     padding-top: 6rem;
     font-size: 5rem;
     height: 12rem;
 }
 
-#strapline h2 {
+.strapline h2 {
     padding-top: 10rem;
     font-size: 3rem;
     height: 12rem;
@@ -171,15 +172,15 @@ nav img {
 /*BODY SECTION*/
 /*subheading images and content*/
 .container {
-    background-color: lightblue;
+    background-color: #CBF3F0;
     padding-right: 10px;
     padding-left: 10px;
-    border: 1px solid yellow;
+    border: 1px solid #FFE66D;
     position: relative;
 }
 
 .background {
-    background-color: lightblue;
+    background-color: #CBF3F0;
 }
 
 .subheading-image {
@@ -217,7 +218,7 @@ nav img {
 
 /*FOOTER*/
 .yellow {
-    color: yellow;
+    color: #FFE66D;
     text-align: center;
     vertical-align: middle;
 }
@@ -236,7 +237,7 @@ i {
     padding-top: 1rem;
 }
 
-#copyright {
+.copyright {
     font-size: 1rem;
     padding-top: 1rem;
 }

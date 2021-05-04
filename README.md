@@ -3,7 +3,7 @@
 # HAPPY HANDS
 > ## Helping Children Communicate
 
-[View Happy Hands Website here](https://mgreenberry.github.io/happy-hands/)
+[View Happy Hands website here](https://mgreenberry.github.io/happy-hands/)
 
 ## About
 
@@ -33,7 +33,6 @@ This website must be engaging for the target audience and contain the informatio
 4. [Testing](#testing)
 
 5. [Deployment](#deployment)
-  * [How to implement this locally](#implement)
 
 6. [Credits](#credits)
   * [Content](#content)
@@ -120,7 +119,7 @@ For this website I chose a colour pallette that matched similar websites that ar
 The colours I picked are as follows: -
 ![Coolors Palette](/assets/images/readme-images/website-colours.jpg)
 
-Format: [Coolors Palette](https://coolors.co/cbf3f0-ffe66d-3066be)
+From: [Coolors Palette](https://coolors.co/cbf3f0-ffe66d-3066be)
 
 #### Imagery
 
@@ -164,7 +163,7 @@ This website is designed with access from the home page to all other pages from 
 
 However, the 404.html and the success.html pages are not accessed from the navigation bar or from any of the pages of the website. The 404.html page only displays when a user enters or searches for a page that doens't exist. The success.html page only displays when a user has sucessfully completed the contact form in contact-us.html. Both the 404.html and the success.html pages allow the user to navigate to the main website.
 
-This [blueprint](/assets/images/readme-images/website-layout-plan) was then used to design the navigation and call-out buttons featured in the website.
+![blueprint](/assets/images/readme-images/website-layout-plans.jpg) This blueprint was then used to design the navigation and call-out buttons featured in the website.
 
 ## Wireframes
 I undertook a number of steps to design this website. I have created a breakdown of some of the tasks completed each day in this [document](/assets/images/readme-images/website-design-steps)
@@ -309,30 +308,15 @@ Used as the main markup language of the website content
 * [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en) an online validation tool that helps to improve performance and quality of the webpage with helpful tips to improve as each html page is scored.
 
 ## Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Testing information can be found [here](/assets/TESTING.md)
 
 ## Deployment
 
 ### Project creation
 * To website project was created by going to [Github](https://github.com/), a code hosting platform, using the following steps: -
   1. Create an account using an email address and password or a google account
-  2. Log in to account and create a new repository
-  3. Give this new repository a creative name. Then click the green Gitpod button which will take you to [Gitpod](https://gitpod.io/workspaces). Gitpod is an open source platform for code development
+  2. Log in to account and create a new repository![](/assets/images/readme-images/creating-new-repository.png)
+  3. Give this new repository a creative name. Then click the green Gitpod button which will take you to [Gitpod](https://gitpod.io/workspaces). Gitpod is an open source platform for code development ![](assets/images/readme-images/creating-respository-step-one.png) ![](assets/images/readme-images/happy-hands-gitpod.png)
   4. Then open this platform and started coding
   5. To save the work I had to do the following: - Click 'File', click 'auto save'
   6. To save the work to github I needed to do the following: -
@@ -341,15 +325,15 @@ If this section grows too long, you may want to split it off into a separate fil
     * It is recommended to commit daily. To complete the necessary steps to upload to github I needed to use the command - git push. This then 'pushed' all the saved work back to Github
 ### Deployment of existing site
 * The following steps were taken to deploy this site and make it 'live': - 
-  1. On Github.com go to the repository, go the the project main page
-  2. Click on 'Settings' and then scroll down to the section 'GitHub Pages'
-  3. Click on the 'Pages' tab and then click 'Source' and choose 'Master' under the 'Branch' tab, then 'Root' and click save
-  4. The link is now available for you to publish above this.
+  1. On Github.com go to the repository, go the the project main page ![]()
+  2. Click on 'Settings' and then scroll down to the section 'GitHub Pages' ![](assets/images/readme-images/pages-in-settings.png)
+  3. Click on the 'Pages' tab and then click 'Source' and choose 'Master' under the 'Branch' tab, then 'Root' and click save ![]()
+  4. The link is now available for you to publish above this. ![](assets/images/readme-images/github-website-link.png)
 ### Forking  
 * If you wish to use this repository as a starting point for your own design, or to contribute to this project, you can fork it. Follow the steps below.
   1. Navigate to the repository in [github](https://github.com/). 
   2. Choose the correct repository. In this case it is [Happy Hands](https://github.com/mgreenberry/happy-hands)
-  2. Click 'Fork' in the top-right corner.
+  2. Click 'Fork' in the top-right corner. ![](assets/images/readme-images/github-fork-button.png)
   4. This will then create a copy (make sure you have already created your own github account) in your repository
   5. Now follow the steps outlined in [project creation](#project-creation) 
   6. Click 'Pull Requests' and seclect 'New Pull Request' button
@@ -358,7 +342,7 @@ If this section grows too long, you may want to split it off into a separate fil
   1. Navigate to the repository in [github](https://github.com/). 
   2. Choose the correct repository. In this case it is [Happy Hands](https://github.com/mgreenberry/happy-hands)
   3. Click the 'Code' button
-  4. You will now be given options to make a clone of the website, to download it or to open with GitHub Desktop. You can choose to clone the 'HTTPS', the 'SSH' or 'GitHub CLI'
+  4. You will now be given options to make a clone of the website, to download it or to open with GitHub Desktop. You can choose to clone the 'HTTPS', the 'SSH' or 'GitHub CLI' ![](assets/images/readme-images/github-clone.png)
   5. Open Git Bash or similar
   6. Navigate to your desired directory for the cloned project.
   7. Type 'git clone' followed by the URL copied in step 3.
