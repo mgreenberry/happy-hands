@@ -15,14 +15,82 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
+# Happy Hands - Testing document
+
+[README.md file](/README.md)
+
+## Table of contents
+1. [Validation Testing](#validation-testing)
+* [html testing](#lighthouse-testing) 
+* [css testing](#) 
+2. [Lighthouse Testing](#)
+* [Mobile Phone](#)
+* [Desktop](#)
+3. [Manual Testing](#)
+4. [User Story Testing](#)
+5. [Further Testing](#)
 
 
-# Portrait Artist Website - Testing details
+## Validation Testing
+* [html testing with W3C Markup Validation Service](https://validator.w3.org/)
+  * [index.html](/assets/images/testing-images/index.html.pdf)
+  * [lessons.html](/assets/images/testing-images/lessons.html.pdf)
+  * [tutors.html](/assets/images/testing-images/tutors.html.pdf)
+  * [free-content.html](/assets/images/testing-images/free-content.html.pdf)
+  
+  The following pages had no html errors as the main content and code of these pages were created after the initial testing of the firt four pages.
+  * contact-us.html![](/assets/images/testing-images/http-no-errors.png)
+  * success.html![](/assets/images/testing-images/http-no-errors.png)
+  * 404.html![](/assets/images/testing-images/http-no-errors.png)
 
-[Main README.md file](/README.md)
+* [css testing using W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
-[View website in GitHub Pages](https://github.com/AJGreaves/portrait-artist)
+All CSS code was put through the W3C Validation Service. The following message was shown: -
+![css testing results](/assets/images/testing-images/css-results.png)
 
+## Lighthouse Testing
+* Mobile phone (1st test)
+  * [index.html](/assets/images/testing-images/lighthouse-index-1st.png)
+  * [lessons.html](/assets/images/testing-images/lighthouse-lessons-1st.png)
+  * [tutors.html](/assets/images/testing-images/lighthouse-tutors-1st.png)
+  * [free-content.html](/assets/images/testing-images/lighthouse-free-content-1st.png)
+  * [contact-us.html](/assets/images/testing-images/lighthouse-contact-us-1st.png)
+    * [success.html](/assets/images/testing-images/lighthouse-success-1st.png)
+    * [404.html]((/assets/images/testing-images/lighthouse-404-1st.png))
+
+The main issues were the performance and Best Practices which both scored under 90% on all pages. The errors were mainly that the pictures were too big and that external links had no 'rel' values. 
+
+I fixed this by reducing the sizes of the images used and by adding 'rel="noopener"' to any external links (call-out buttons).
+
+* Mobile phone (2nd test)
+* [index.html](/assets/images/testing-images/lighthouse-index-2nd.png)
+  * [lessons.html](/assets/images/testing-images/lighthouse-lessons-2nd.png)
+  * [tutors.html](/assets/images/testing-images/lighthouse-tutors-2nd.png)
+  * [free-content.html](/assets/images/testing-images/lighthouse-free-content-2nd.png)
+  * [contact-us.html](/assets/images/testing-images/lighthouse-contact-us-2nd.png)
+    * [success.html](/assets/images/testing-images/lighthouse-success-2nd.png)
+    * [404.html]((/assets/images/testing-images/lighthouse-404-2nd.png))
+
+After the fixes described above all scores accross all pages were over 90% with my index.html scoring 94%. With more time and manipulation I think I could have got all scores over 95%. Most of the issues were in Best Practices for the image used in the nav bar and hero-image, as well as some cookie issues with the videos in both the lessons and free-content.html.
+ 
+* Desktop
+  * [index.html](assets/images/testing-images/desktop-index.html.png)
+  * [lessons.html](assets/images/testing-images/desktop-lessons.html.png)
+  * [tutors.html](assets/images/testing-images/desktop-tutors.html.png)
+  * [free-content.html](assets/images/testing-images/desktop-free-content.html.png)
+  * [contact-us.html](assets/images/testing-images/desktop-contact-us.html.png)
+    * [success.html](assets/images/testing-images/desktop-success.html.png)
+    * [404.html](assets/images/testing-images/desktop-404.html.png)
+
+TO CONTINUE FROM HERE!
+
+* [Manual Testing](#)
+  * [Existing Creative](#existing-creative)
+  * [Features Left To Implement](#left-to-implement)
+
+3. [Technologies Used](#technologies)
+
+4. [Testing](#testing)
 ## Testing
 
 - [W3C CSS validation](https://jigsaw.w3.org/css-validator/)

@@ -133,7 +133,7 @@ All other images were sourced from www.shutterstock.com as part of a free trial 
 
   1. BSL image: Image by [Cath Smith](assets/images/logos-images/bsl-3.jpg) from www.letssign.co.uk.
   2. Sign Language Deaf Disabled People Video Conference: Photo by [Andrey Popov](https://www.shutterstock.com/g/apops) from [Shutterstock](https://www.shutterstock.com/image-photo/sign-language-deaf-disabled-people-video-1813787960)
-  3. Hands Sign Languagel Circle: Photo by [Darelle](https://pixabay.com/users/darelle-427220/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=541830) from [Pixabay](https://pixabay.com/photos/hands-sign-language-circle-541830/)
+  3. Hands Sign Language Circle: Photo by [Darelle](https://pixabay.com/users/darelle-427220/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=541830) from [Pixabay](https://pixabay.com/photos/hands-sign-language-circle-541830/)
 
 * lessons.html
   1. Little girl smiling with love hand: Photo by [Wisansaya Suksong](https://www.shutterstock.com/g/ampsuksong) from [Shutterstock](https://www.shutterstock.com/image-photo/portrait-cute-little-girl-smiling-love-1158105028)
@@ -302,13 +302,14 @@ Used as the main markup language of the website content
 * [Google Fonts](https://fonts.google.com) for the fonts used in the website
 * [Coolors](https://coolors.co/) to source the main colours for the website
 * [Favicons](https://www.favicon.cc) to create a favicon for the tab and website title
+* [YouTube](https://www.youtube.com) to host videos for the lessons.html page and the numbers lesson on the free-content.html
 ### Testing Tools
 * [hmtl validation](https://validator.w3.org) to check the html code had no errors
 * [css validation](https://jigsaw.w3.org/css-validator/) to check the css code had no errors
 * [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en) an online validation tool that helps to improve performance and quality of the webpage with helpful tips to improve as each html page is scored.
 
 ## Testing
-Testing information can be found [here](/assets/TESTING.md)
+Testing information can be found [here](TESTING.md)
 
 ## Deployment
 
