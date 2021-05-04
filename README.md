@@ -18,13 +18,13 @@ This website must be engaging for the target audience and contain the informatio
 ![Mockup](/assets/images/readme-images/website-various-devices.png)
 
 ## Table of contents
-1. [UX](#ux)
+1. [UX - User Experience](#ux)
   * [Project Goals](#project-goals)
   * [User Stories](#user-stories)
   * [Design Choices](#design-choices)
   * [Wireframes](#wireframes)
 
-2. [Features](#features)
+2. [Existing Features](#existing-features)
   * [Existing Creative](#existing-creative)
   * [Features Left To Implement](#left-to-implement)
 
@@ -75,7 +75,7 @@ For this website and business I looked online for family friendly sign language 
   15. I want to know the price for and time for each lessons
   16. I want to know that my child is safe and that tutors have the necessary qualificaitons and checks in place
 
-HAPPY HANDS will do this by:-
+* HAPPY HANDS will do this by:-
   1. Design a responisive website focussed for mobile devices and responsive to larger screens.
   2. Design an easy to read home page (index.html) which gives some brief information about the website and it's aims and goals
   3. Design 2 distinct sections which highlight the language (BSL) and the courses available
@@ -91,7 +91,7 @@ HAPPY HANDS will do this by:-
   13. Design a footer with contact details such as address, phone number and location via a map 
   14. Design a link in the footer to a Zoom call for BSL users and video content
   15. Design a section within the lessons.html page with information on prices and times
-  16. Design a seciton within the tutors.html and index.html which offers confirmation of checks and tutor informatioin
+  16. Design a seciton within the tutors.html and index.html which offers confirmation of checks and tutor information
 
 * As a user returning to the site:
   1. I want to be able to watch video content provided by the business
@@ -158,10 +158,18 @@ All other images were sourced from www.shutterstock.com as part of a free trial 
 
 All icons for Social Media were sourced form [Font Awesome](https://fontawesome.com/)
 
-### Wireframes
-I undertook a number of steps to design this website. I have created a breakdown of tasks completed each day in this [document](/assets/images/readme-images/website-design-steps)
+### Layout
 
-I have attached mock ups of the original ideas and final design ideas before I used Wireframes to create a prototype.
+This website is designed with access from the home page to all other pages from the navigation bar. Some pages also include links to other pages, i.e. index.html links to both lessons.html and tutors.html. 
+
+However, the 404.html and the success.html pages are not accessed from the navigation bar or from any of the pages of the website. The 404.html page only displays when a user enters or searches for a page that doens't exist. The success.html page only displays when a user has sucessfully completed the contact form in contact-us.html. Both the 404.html and the success.html pages allow the user to navigate to the main website.
+
+This [blueprint](/assets/images/readme-images/website-layout-plan) was then used to design the navigation and call-out buttons featured in the website.
+
+## Wireframes
+I undertook a number of steps to design this website. I have created a breakdown of some of the tasks completed each day in this [document](/assets/images/readme-images/website-design-steps)
+
+I have attached mock ups of the original ideas and final design ideas before I used Wireframes to create a prototype. These initial drawings and ideas are [here](/assests/images/readme-images/inital-ideas.pdf)
 
 I used Balsamiq to create my wireframes. I chose to do a mobile version first with the pages I wanted and then create a desktop version after. I did this as this was going to be the way I designed my website, mobile first.
 
@@ -182,7 +190,7 @@ Generic laptop
 
 Once I started to create my website I realised I needed a lot more content and that I wanted to have a separate page for the contact-us section. I also decided to add a tutor.html, success.html for the form and a 404.html for wrong address input:
 
-As I wanted to include this on all formats and devices I created my wireframes again for all pages and added the following to show mobile, iPad and desktop:
+As I wanted to include this on all formats and devices I created my wireframes again for all pages and added the following to show mobile, tablet and desktop:
 
 * [index.html](/assets/images/readme-images/index.html.png)
 * [lessons.html](/assets/images/readme-images/lessons.html.png)
@@ -218,14 +226,14 @@ Every page contains the following features in the footer: -
 
 Also every page contains a yellow border to separate each section
 
-### Home Page
+### index.html
 * This page contains 3 sections as follows: -
   1. **Communicate with British Sign Language** - An image of BSL. This allows users to understand what is being taught by the business. The additional text explains what Happy Hands offer regarding British Sign Language (BSL) content.
   2. **Our Courses** - An image of a women being taught BSL via video conferencing. This allows users to understand that the lessons are online. The text supports this message with additional information.
   3. **Our Company** - An image of some hands doing the love sign (ASL). This section is to briefly introduce the company to the user.
 * There is a call-out button under the **Our Course** and **Our Company** sections to direct users to other pages in the website. The first ca button allows users to find out more information about the lessons and prices of the courses offered. The second ca button allows users to find out more about the tutors that teach the BSL classes. Both buttons require user input to work.
 
-### Lessons
+### lessons.html
 * This page contains 4 sections as follows: -
   1. **Children's Courses Under 7** - An image of a small girl doing BSL. This allows users to quickly identify which course is most suitable for them or thier child/children. The additional text and sample videos provide further information and confirmation of the users and business owner's desired expectations.
   2. **Children's Courses 8 to 13** - An image of a young girl doing BSL. This allows users to quickly identify which course is most suitable for them or thier child/children. The additional text and sample videos provide further information and confirmation of the users and business owner's desired expectations.
@@ -233,7 +241,7 @@ Also every page contains a yellow border to separate each section
   4. **Adult Courses** - An image of an muslim woman learning BSL. This allows users to see that the adult courses are suitable for any adults, any age, and any religion, without discrimination. The additional text and sample videos provide further information and confirmation of this.
 * There is a call-out butotn at the bottom of this page under the **Adult Courses**. This allows users to access the free content, such as more video content, and downloadable packs such as fingerspelling/alphabet charts.
 
-### Tutors
+### tutors.html
 * This page contains 3 sections as follows: -
   1. **Teacher Michael** - An image of Michael. This allows users to see who will be teaching the **Young Adult** and **Adult** lessons. The additional text allows users to quickly identify what experience and qualifications the tutor has.
     * There are also reviews under the text. This allows users to see what other users have said about the lessons and business.
@@ -242,28 +250,28 @@ Also every page contains a yellow border to separate each section
 * **Our Prices** - This allows users to see how long and how much individual lessons cost. These prices are slightly lower than average in this field. 
 * There is a call-out button under the **Our Prices** which encourages the user to contact the business. This allows the user to contact the business to find out more information or preferably to book lessons.
 
-### Free Content
+### free-content.html
 * This page contains 2 sections as follows: -
   1. **Free Alphabet/Fingerspelling Downloadable sheets**. This allows users to download, save and review this free downloadable content. This will enable users to practice some aspects of BSL and the aim of the business is to whet the users appetite to learn more
     * There is a call-out button under this section which allows users to access more free content from a supporting website. This allows users to download more content and possibly make purchases from the new site. (Presently this links to an outside company that supplied the free content in the website)
   2. **Free Video Lesson**. This allows users to watch and learn how to do numbers in BSL. The user also can control this video from YouTube using the buttons contained in the embedded file. This lends itself to a better user experience.
 
-### Contact Us
+### contact-us.html
 * This page contains 1 section as follows: -
   1. A contact form with 'First Name', 'Last Name', 'Email Address' and 'Message' fields. This allows the user to input their information and find out more details, ask questions or book lessons with the business.
 * There are 2 call-out buttons under this form. The first button **Reset** resets the form in case of user input error. The second button **Submit** allows the user to send their form to the business. On doing this they will be taken to a new page to show that submitting the form has been successful. Users will need to provide information in all fields, with a valid @ email address in order to be able to submit forms. This allows the business to only recieve valid customer comments.
 
-### success
+### success.html
 * This page is not linked to the **Home Page** or **Navigation Bar**
 * This page is only accessed on completion of a valid and correctly filled in form which the user has submitted on the #contact-us.html form.
 * This page contains the following section: -
   * A Thank You image and message. This allows the user to know that they have submitted thier form sucessfully on the contact-us.html form section.
   * There is 1 call-out button under this form. This allows the user to return to the form page that they last interacted with
 
-### 404
+### 404.html
 * This page is not linked to any other page in the website
 * This page is only accessed if a user types an incorrect web address in the browser navigation bar
-This page contains the following section: -
+* This page contains the following section: -
   * A humourous message notifying the user of an error. This then allows the user to recognise that the web address doens't exist.
   * There is 1 call-out button in this section. This allows the user to return to the home page of the main website - [Happy Hands](https://mgreenberry.github.io/happy-hands/)
 
@@ -319,56 +327,150 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-
-### How to implement this locally
-you should also describe how to run your code locally.
+### Project creation
+* To website project was created by going to [Github](https://github.com/), a code hosting platform, using the following steps: -
+  1. Create an account using an email address and password or a google account
+  2. Log in to account and create a new repository
+  3. Give this new repository a creative name. Then click the green Gitpod button which will take you to [Gitpod](https://gitpod.io/workspaces). Gitpod is an open source platform for code development
+  4. Then open this platform and started coding
+  5. To save the work I had to do the following: - Click 'File', click 'auto save'
+  6. To save the work to github I needed to do the following: -
+    * git add (either the name of the file, i.e. index.html or '.' which adds everything that has been worked on that day)
+    * git commit (either the name of the file, i.e. index.html or '-m' and then add a comment in parenthesis "" and enter)
+    * It is recommended to commit daily. To complete the necessary steps to upload to github I needed to use the command - git push. This then 'pushed' all the saved work back to Github
+### Deployment of existing site
+* The following steps were taken to deploy this site and make it 'live': - 
+  1. On Github.com go to the repository, go the the project main page
+  2. Click on 'Settings' and then scroll down to the section 'GitHub Pages'
+  3. Click on the 'Pages' tab and then click 'Source' and choose 'Master' under the 'Branch' tab, then 'Root' and click save
+  4. The link is now available for you to publish above this.
+### Forking  
+* If you wish to use this repository as a starting point for your own design, or to contribute to this project, you can fork it. Follow the steps below.
+  1. Navigate to the repository in [github](https://github.com/). 
+  2. Choose the correct repository. In this case it is [Happy Hands](https://github.com/mgreenberry/happy-hands)
+  2. Click 'Fork' in the top-right corner.
+  4. This will then create a copy (make sure you have already created your own github account) in your repository
+  5. Now follow the steps outlined in [project creation](#project-creation) 
+  6. Click 'Pull Requests' and seclect 'New Pull Request' button
+### Cloning/Implementing Locally
+* To clone the website please use the following steps: -
+  1. Navigate to the repository in [github](https://github.com/). 
+  2. Choose the correct repository. In this case it is [Happy Hands](https://github.com/mgreenberry/happy-hands)
+  3. Click the 'Code' button
+  4. You will now be given options to make a clone of the website, to download it or to open with GitHub Desktop. You can choose to clone the 'HTTPS', the 'SSH' or 'GitHub CLI'
+  5. Open Git Bash or similar
+  6. Navigate to your desired directory for the cloned project.
+  7. Type 'git clone' followed by the URL copied in step 3.
+  8. Press 'Enter' to create your local clone.
 
 ## Credits
-
+All text content and video content was created for Happy Hands by Michael Greenberry, the business and website creator/owner.
 ### Content
-The text for section Y was copied from the Wikipedia article Z
+The text for the BSL section on the home page (index.html) was influenced by information about British Sign Language from [wikipedia](https://en.wikipedia.org/wiki/British_Sign_Language).
 ### Media
-The BSL Alphabet pdf document were sourced from....
-
-photos used in this site were obtained from ...
+* All pages:
+  * Happy Hands: [Hero Image](assets/images/logos-images/happy-hands.jpg) - Happy Hands was designed by Michael Greenberry using the Sketches Pro app by Tayashi on Apple iPad.
+* index.html
+  1. BSL image: Image by [Cath Smith](assets/images/logos-images/bsl-3.jpg) from www.letssign.co.uk.
+  2. Sign Language Deaf Disabled People Video Conference: Photo by [Andrey Popov](https://www.shutterstock.com/g/apops) from [Shutterstock](https://www.shutterstock.com/image-photo/sign-language-deaf-disabled-people-video-1813787960)
+  3. Hands Sign Languagel Circle: Photo by [Darelle](https://pixabay.com/users/darelle-427220/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=541830) from [Pixabay](https://pixabay.com/photos/hands-sign-language-circle-541830/)
+* lessons.html
+  1. Little girl smiling with love hand: Photo by [Wisansaya Suksong](https://www.shutterstock.com/g/ampsuksong) from [Shutterstock](https://www.shutterstock.com/image-photo/portrait-cute-little-girl-smiling-love-1158105028)
+  2. Smiling indian latin deaf child: Photo by [insta_photos](https://www.shutterstock.com/g/instaphotos) from [Shuttercock](https://www.shutterstock.com/image-photo/smiling-indian-latin-deaf-disabled-child-1814238713)
+  3. Smiling teenage girl deaf: Photo by [Leoschka](https://www.shutterstock.com/g/Leoschka) from [Shuttercock](https://www.shutterstock.com/image-photo/smiling-teenage-girl-deaf-disabled-child-1943311720)
+  4. Young black female in hijab: Photo by [Prostock-studio](https://www.shutterstock.com/g/prostock_studio) from [Shuttercock](https://www.shutterstock.com/image-photo/online-education-young-black-female-teacher-1859693998)
+  * Video contect from business owner by Michael Greenberry
+* tutors.html
+  * All content from business owner by Michael Greenberry
+* free-content.html
+  1. Fingerspelling/Alphabet download and images: [left](assets/images/logos-images/lh-alphabet.jpg) and [right](assests/images/logos-images/rh-alphabet.jpg) hand alphabet fingerspelling documents/images by [Cath Smith](https://www.letssign.co.uk)
+* success.html
+  1. Thankyou image on success page: [Cath Smith](assets/images/logos-images/thankyou.jpg) from www.letssign.co.uk
+### Icons
+All icons for Social Media were sourced form [Font Awesome](https://fontawesome.com/)
 ### Code
+This [Bootstrap - Nav Bar](https://getbootstrap.com/docs/5.0/components/navbar/) page was used to produce the type of navigation menu I wanted. This was then adapted for my use.
 
-### Acknowledgements
-Daniel D. Beck - Write the Readable README.
-I received inspiration for this project from X
+#### HTPS
+> <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="index.html">
+                <img class="happy-hands" src="assets/images/logos-images/happy-hands.jpg" alt="Happy Hands Logo"></a>
+            <h6 class="yellow">Happy Hands</h6>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSurpportedContent"
+                aria-controls="navbarSurpportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSurpportedContent">
+                <ul class="yellow navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="lessons.html">Lessons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tutors.html">Tutors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="download.html">Free Content</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-Identify the project - what is the name of the project, the URL project and author.
+#### CSS
+>   .navbar-toggler-icon {
+    /* From Bootstrap*/
+    display: inline-block;
+    width: 5em;
+    height: 5em;
+    vertical-align: middle;
+    content: "";
+    background: 50%/100% 100% no-repeat;
+}
 
-Evaluate the project - how does this project help someone? Tasks used to complete/technology and Terms of use as in who can use this. With <project> you can verb noun .project helps you verb noun unlike, alternative, project verbs noun
-or describe a problem, and then solution. Tell the audience what the website is not for. 
+[Bootstrap - Buttons](https://getbootstrap.com/docs/5.0/components/buttons/) was used to provide ideas and some code was used and adapted to create my buttons (call-outs).
+> .btn {/*influenced by Bootstrap*/}
 
-Use the Project. - what do you need to run my website, it's ingredients. Installation steps to get the website running... how to read, etc. demonstration. Test from scratch, look for ways to improve.
+The Hero image by itself was too bright for the strapline and heading. To adjust the **'background-image'** I adapted some code found at [CSS-Tricks.com](https://css-tricks.com/almanac/properties/b/background-image/).
+> .hero-image {
+    background: url(../images/logos-images/happy-hands.jpg) no-repeat center center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.40),
+            rgba(0, 0, 0, 0.40)),
+        url(../images/logos-images/happy-hands.jpg);
+    /*background-image influenced by css-tricks.com*/
+    background-size: cover;
+    height: 36rem;
+    width: 100%;
+    position: relative;
+}
 
-Engage with the project - link to docs and tell them what they are. Who contributed and how can someone contribute. Mention slack group.
+The YouTube videos were not responsive when the screen was changed from a mobile device to a laptop. To adjust the size of the video and make it responsive for all devices I used part of the code found at [Stack Overflow](https://stackoverflow.com/questions/35814653/automatic-height-when-embedding-a-youtube-video/54924505#54924505)
+> .video {
+    /* Credit - https://stackoverflow.com/a/54924505 */
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
 
-CHECKLIST:
-Need to solution
-My software verb feature - installs, enhances or simplifies. 
-Tell them how to build it.
-Keep installation simple.
-Include code samples where it's amazing.
-What problem are you solving
-Important points at the top
-Sub-points in bullets
-Troubleshooting - users and myself, bugs, etc.
+## Acknowledgements
+Many thanks to the following people for their help with this project: -
 
-Description and technologies
-How to Use and then installation and API reference which is examples of code.
+My wife Rebekah Greenberry for providing the sample children videos
 
-References
+Cath Smith from www.letssign.co.uk for providing sample images and allowing me to use them in my website and for feedback.
 
-License
+Dave Tyler for his feedback and guidance on colour palettes.
 
-Author information
+My mentor Spencer Barriball who went through this project with me and provided great feedback throughout
+
+Anna Greaves for her excellent README video and supporting documentation, on which is founded this README and Testing documents.
+
+Code Institute Slack Students for their feedback and help with my questions - special mention to Anthony, Eventyret_mentor, Ed B_Lead and igor_ci plus so many more
+
+## Author information
+Michael Greenberry is the creator and owner of this website and future business. This is a User Centric Development Milstone Project website created as part of a Full Stack Software Development in Code Institute by [Michael Greenberry](https://www.linkedin.com/in/michael-greenberry-637299108/).
