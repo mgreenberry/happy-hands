@@ -49,7 +49,7 @@ This website must be engaging for the target audience and contain the informatio
 * [Project creation](#project-creation)
 * [Deployment of existing site](#deployment-of-existing-site)
 * [Forking](#forking)
-* [Cloning & Implementing Locally](#cloning-&-implementing-locally)
+* [Cloning and Implementing Locally](#cloning-and-implementing-locally)
 6. [Credits](#credits)
 * [Content](#content)
 * [Media](#media)
@@ -366,7 +366,7 @@ Testing information can be found [here](TESTING.md)
   4. This will then create a copy (make sure you have already created your own github account) in your repository
   5. Now follow the steps outlined in [project creation](#project-creation) 
   6. Click 'Pull Requests' and seclect 'New Pull Request' button
-### Cloning & Implementing Locally
+### Cloning and Implementing Locally
 * To clone the website please use the following steps: -
   1. Navigate to the repository in [github](https://github.com/). 
   2. Choose the correct repository. In this case it is [Happy Hands](https://github.com/mgreenberry/happy-hands)
