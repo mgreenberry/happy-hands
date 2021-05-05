@@ -25,21 +25,21 @@ This website must be engaging for the target audience and contain the informatio
     * [Typography](#typography)
     * [Colours](#colours)
     * [Imagery](#imagery)
-    * [Icons]
-    * [Layout]
+    * [Icons](#icons)
+    * [Layout](#layout)
   * [Wireframes](#wireframes)
 2. [Features](#features)
 * [Existing Features](#existing-features)
-  * [All Pages](#)
-  * [index.html]
-  * [lessons.html]
-  * [tutors.html]
-  * [free-content.html]
-  * [contact-us.html]
-  * [success.html]
-  * [404.html]
-* [Features Left To Implement](#)
-3. [Technologies Used](#technologies)
+  * [All Pages](#all-pages)
+  * [index.html](#index.html)
+  * [lessons.html](#lessons.html)
+  * [tutors.html](#tutors.html)
+  * [free-content.html](#free-content.html)
+  * [contact-us.html](#contact-us.html)
+  * [success.html](#success.html)
+  * [404.html](#404.html)
+* [Features Left To Implement](#features-left-to-implement)
+3. [Technologies Used](#technologies-used)
 * [Languages](#languages)
 * [Framework Library](#framework-library)
 * [Tools](#tools)
