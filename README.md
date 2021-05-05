@@ -121,6 +121,7 @@ For this website and business I looked online for family friendly sign language 
   1. Design and provide embedded YouTube videos with user controls
   2. Design an easy to use and friendly navigation bar and clickable buttons on each page
   3. Design a contact form section/page. Also provide social media buttons and a contact us on each page at the bottom
+
 [Back to content](#table-of-contents)
 ### Design Choices
 
@@ -184,6 +185,7 @@ This website is designed with access from the home page to all other pages from 
 However, the 404.html and the success.html pages are not accessed from the navigation bar or from any of the pages of the website. The 404.html page only displays when a user enters or searches for a page that doens't exist. The success.html page only displays when a user has sucessfully completed the contact form in contact-us.html. Both the 404.html and the success.html pages allow the user to navigate to the main website.
 
 ![blueprint](/assets/images/readme-images/website-layout-plans.jpg) This blueprint was then used to design the navigation and call-out buttons featured in the website.
+
 [Back to content](#table-of-contents)
 ## Wireframes
 I undertook a number of steps to design this website. I have created a breakdown of some of the tasks completed each day in this [document](/assets/images/readme-images/website-design-steps)
@@ -216,6 +218,7 @@ As I wanted to include this on all formats and devices I created my wireframes a
 * [tutors.html](/assets/images/readme-images/tutors.html.png)
 * [download.html](/assets/images/readme-images/download.html.png)
 * [contact-us.html](/assets/images/readme-images/contact-us.html.png)
+
 [Back to content](#table-of-contents)
 ## Features
 
@@ -307,6 +310,7 @@ Also every page contains a yellow border to separate each section
 * A log in/Register form
 * A members only area
 * New content for returning members.
+
 [Back to content](#table-of-contents)
 ## Technologies Used
 ### Languages
@@ -329,9 +333,11 @@ Used as the main markup language of the website content
 * [hmtl validation](https://validator.w3.org) to check the html code had no errors
 * [css validation](https://jigsaw.w3.org/css-validator/) to check the css code had no errors
 * [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en) an online validation tool that helps to improve performance and quality of the webpage with helpful tips to improve as each html page is scored.
+
 [Back to content](#table-of-contents)
 ## Testing
 Testing information can be found [here](TESTING.md)
+
 [Back to content](#table-of-contents)
 ## Deployment
 
@@ -370,6 +376,7 @@ Testing information can be found [here](TESTING.md)
   6. Navigate to your desired directory for the cloned project.
   7. Type 'git clone' followed by the URL copied in step 3.
   8. Press 'Enter' to create your local clone.
+
 [Back to content](#table-of-contents)
 ## Credits
 All text content and video content was created for Happy Hands by Michael Greenberry, the business and website creator/owner.
@@ -463,6 +470,7 @@ The YouTube videos were not responsive when the screen was changed from a mobile
     padding-bottom: 56.25%;
     height: 0;
 }
+
 [Back to content](#table-of-contents)
 ## Acknowledgements
 Many thanks to the following people for their help with this project: -
@@ -478,6 +486,9 @@ My mentor Spencer Barriball who went through this project with me and provided g
 Anna Greaves for her excellent README video and supporting documentation, on which is founded this README and Testing documents.
 
 Code Institute Slack Students for their feedback and help with my questions - special mention to Anthony, Eventyret_mentor, Ed B_Lead and igor_ci plus so many more
+
 [Back to content](#table-of-contents)
 ## Author information
 Michael Greenberry is the creator and owner of this website and future business. This is a User Centric Development Milstone Project website created as part of a Full Stack Software Development in Code Institute by [Michael Greenberry](https://www.linkedin.com/in/michael-greenberry-637299108/).
+
+[Back to content](#table-of-contents)
