@@ -22,23 +22,43 @@ This website must be engaging for the target audience and contain the informatio
   * [Project Goals](#project-goals)
   * [User Stories](#user-stories)
   * [Design Choices](#design-choices)
+    * [Typography](#typography)
+    * [Colours](#colours)
+    * [Imagery](#imagery)
+    * [Icons]
+    * [Layout]
   * [Wireframes](#wireframes)
-
-2. [Existing Features](#existing-features)
-  * [Existing Creative](#existing-creative)
-  * [Features Left To Implement](#left-to-implement)
-
+2. [Features](#features)
+* [Existing Features](#existing-features)
+  * [All Pages](#)
+  * [index.html]
+  * [lessons.html]
+  * [tutors.html]
+  * [free-content.html]
+  * [contact-us.html]
+  * [success.html]
+  * [404.html]
+* [Features Left To Implement](#)
 3. [Technologies Used](#technologies)
-
+* [Languages](#languages)
+* [Framework Library](#framework-library)
+* [Tools](#tools)
+* [Testing Tools](#testing-tools)
 4. [Testing](#testing)
-
 5. [Deployment](#deployment)
-
+* [Project creation](#project-creation)
+* [Deployment of existing site](#deployment-of-existing-site)
+* [Forking](#forking)
+* [Cloning/Implementing Locally](#cloning/implementing-locally)
 6. [Credits](#credits)
-  * [Content](#content)
-  * [Media](#media)
-  * [Code](#code)
-  * [Acknowledgements](#acknowledgements)
+* [Content](#content)
+* [Media](#media)
+* [Icons](#icons)
+* [Code](#code)
+  * [HTPS](#https)
+  * [CSS](#css)
+7. [Acknowledgements](#acknowledgements)
+8. [Author Information](#author-information)
 
 ## UX (User Experience)
 
@@ -101,7 +121,7 @@ For this website and business I looked online for family friendly sign language 
   1. Design and provide embedded YouTube videos with user controls
   2. Design an easy to use and friendly navigation bar and clickable buttons on each page
   3. Design a contact form section/page. Also provide social media buttons and a contact us on each page at the bottom
-
+[Back to content](#table-of-contents)
 ### Design Choices
 
 #### Typography
@@ -164,7 +184,7 @@ This website is designed with access from the home page to all other pages from 
 However, the 404.html and the success.html pages are not accessed from the navigation bar or from any of the pages of the website. The 404.html page only displays when a user enters or searches for a page that doens't exist. The success.html page only displays when a user has sucessfully completed the contact form in contact-us.html. Both the 404.html and the success.html pages allow the user to navigate to the main website.
 
 ![blueprint](/assets/images/readme-images/website-layout-plans.jpg) This blueprint was then used to design the navigation and call-out buttons featured in the website.
-
+[Back to content](#table-of-contents)
 ## Wireframes
 I undertook a number of steps to design this website. I have created a breakdown of some of the tasks completed each day in this [document](/assets/images/readme-images/website-design-steps)
 
@@ -196,10 +216,12 @@ As I wanted to include this on all formats and devices I created my wireframes a
 * [tutors.html](/assets/images/readme-images/tutors.html.png)
 * [download.html](/assets/images/readme-images/download.html.png)
 * [contact-us.html](/assets/images/readme-images/contact-us.html.png)
+[Back to content](#table-of-contents)
+## Features
 
-## Existing Features
+### Existing Features
 
-### All pages
+#### All pages
 
 Every page contains the following features at the top of the website as standard: -
 * A [logo](/assets/images/logos-images/happy-hands.jpg) of Happy Hands to the left of the Navigation bar. Allows all users back to the home page by clicking the logo.
@@ -225,14 +247,14 @@ Every page contains the following features in the footer: -
 
 Also every page contains a yellow border to separate each section
 
-### index.html
+#### index.html
 * This page contains 3 sections as follows: -
   1. **Communicate with British Sign Language** - An image of BSL. This allows users to understand what is being taught by the business. The additional text explains what Happy Hands offer regarding British Sign Language (BSL) content.
   2. **Our Courses** - An image of a women being taught BSL via video conferencing. This allows users to understand that the lessons are online. The text supports this message with additional information.
   3. **Our Company** - An image of some hands doing the love sign (ASL). This section is to briefly introduce the company to the user.
 * There is a call-out button under the **Our Course** and **Our Company** sections to direct users to other pages in the website. The first ca button allows users to find out more information about the lessons and prices of the courses offered. The second ca button allows users to find out more about the tutors that teach the BSL classes. Both buttons require user input to work.
 
-### lessons.html
+#### lessons.html
 * This page contains 4 sections as follows: -
   1. **Children's Courses Under 7** - An image of a small girl doing BSL. This allows users to quickly identify which course is most suitable for them or thier child/children. The additional text and sample videos provide further information and confirmation of the users and business owner's desired expectations.
   2. **Children's Courses 8 to 13** - An image of a young girl doing BSL. This allows users to quickly identify which course is most suitable for them or thier child/children. The additional text and sample videos provide further information and confirmation of the users and business owner's desired expectations.
@@ -240,7 +262,7 @@ Also every page contains a yellow border to separate each section
   4. **Adult Courses** - An image of an muslim woman learning BSL. This allows users to see that the adult courses are suitable for any adults, any age, and any religion, without discrimination. The additional text and sample videos provide further information and confirmation of this.
 * There is a call-out butotn at the bottom of this page under the **Adult Courses**. This allows users to access the free content, such as more video content, and downloadable packs such as fingerspelling/alphabet charts.
 
-### tutors.html
+#### tutors.html
 * This page contains 3 sections as follows: -
   1. **Teacher Michael** - An image of Michael. This allows users to see who will be teaching the **Young Adult** and **Adult** lessons. The additional text allows users to quickly identify what experience and qualifications the tutor has.
     * There are also reviews under the text. This allows users to see what other users have said about the lessons and business.
@@ -249,32 +271,32 @@ Also every page contains a yellow border to separate each section
 * **Our Prices** - This allows users to see how long and how much individual lessons cost. These prices are slightly lower than average in this field. 
 * There is a call-out button under the **Our Prices** which encourages the user to contact the business. This allows the user to contact the business to find out more information or preferably to book lessons.
 
-### free-content.html
+#### free-content.html
 * This page contains 2 sections as follows: -
   1. **Free Alphabet/Fingerspelling Downloadable sheets**. This allows users to download, save and review this free downloadable content. This will enable users to practice some aspects of BSL and the aim of the business is to whet the users appetite to learn more
     * There is a call-out button under this section which allows users to access more free content from a supporting website. This allows users to download more content and possibly make purchases from the new site. (Presently this links to an outside company that supplied the free content in the website)
   2. **Free Video Lesson**. This allows users to watch and learn how to do numbers in BSL. The user also can control this video from YouTube using the buttons contained in the embedded file. This lends itself to a better user experience.
 
-### contact-us.html
+#### contact-us.html
 * This page contains 1 section as follows: -
   1. A contact form with 'First Name', 'Last Name', 'Email Address' and 'Message' fields. This allows the user to input their information and find out more details, ask questions or book lessons with the business.
 * There are 2 call-out buttons under this form. The first button **Reset** resets the form in case of user input error. The second button **Submit** allows the user to send their form to the business. On doing this they will be taken to a new page to show that submitting the form has been successful. Users will need to provide information in all fields, with a valid @ email address in order to be able to submit forms. This allows the business to only recieve valid customer comments.
 
-### success.html
+#### success.html
 * This page is not linked to the **Home Page** or **Navigation Bar**
 * This page is only accessed on completion of a valid and correctly filled in form which the user has submitted on the #contact-us.html form.
 * This page contains the following section: -
   * A Thank You image and message. This allows the user to know that they have submitted thier form sucessfully on the contact-us.html form section.
   * There is 1 call-out button under this form. This allows the user to return to the form page that they last interacted with
 
-### 404.html
+#### 404.html
 * This page is not linked to any other page in the website
 * This page is only accessed if a user types an incorrect web address in the browser navigation bar
 * This page contains the following section: -
   * A humourous message notifying the user of an error. This then allows the user to recognise that the web address doens't exist.
   * There is 1 call-out button in this section. This allows the user to return to the home page of the main website - [Happy Hands](https://mgreenberry.github.io/happy-hands/)
 
-## Features Left to Implement
+### Features Left to Implement
 * To enable users to book lessons - not able to implement this at present
 * To enable users to pay in advance for lessons - requires some form of payment and associated security
 * To provide more interactive content, especially for children such as games, interactive packs/content and craft ideas - unsure of how to implement this
@@ -285,7 +307,7 @@ Also every page contains a yellow border to separate each section
 * A log in/Register form
 * A members only area
 * New content for returning members.
-
+[Back to content](#table-of-contents)
 ## Technologies Used
 ### Languages
 * [HTML](https://en.wikipedia.org/wiki/HTML5) 
@@ -307,10 +329,10 @@ Used as the main markup language of the website content
 * [hmtl validation](https://validator.w3.org) to check the html code had no errors
 * [css validation](https://jigsaw.w3.org/css-validator/) to check the css code had no errors
 * [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en) an online validation tool that helps to improve performance and quality of the webpage with helpful tips to improve as each html page is scored.
-
+[Back to content](#table-of-contents)
 ## Testing
 Testing information can be found [here](TESTING.md)
-
+[Back to content](#table-of-contents)
 ## Deployment
 
 ### Project creation
@@ -348,7 +370,7 @@ Testing information can be found [here](TESTING.md)
   6. Navigate to your desired directory for the cloned project.
   7. Type 'git clone' followed by the URL copied in step 3.
   8. Press 'Enter' to create your local clone.
-
+[Back to content](#table-of-contents)
 ## Credits
 All text content and video content was created for Happy Hands by Michael Greenberry, the business and website creator/owner.
 ### Content
@@ -441,7 +463,7 @@ The YouTube videos were not responsive when the screen was changed from a mobile
     padding-bottom: 56.25%;
     height: 0;
 }
-
+[Back to content](#table-of-contents)
 ## Acknowledgements
 Many thanks to the following people for their help with this project: -
 
@@ -456,6 +478,6 @@ My mentor Spencer Barriball who went through this project with me and provided g
 Anna Greaves for her excellent README video and supporting documentation, on which is founded this README and Testing documents.
 
 Code Institute Slack Students for their feedback and help with my questions - special mention to Anthony, Eventyret_mentor, Ed B_Lead and igor_ci plus so many more
-
+[Back to content](#table-of-contents)
 ## Author information
 Michael Greenberry is the creator and owner of this website and future business. This is a User Centric Development Milstone Project website created as part of a Full Stack Software Development in Code Institute by [Michael Greenberry](https://www.linkedin.com/in/michael-greenberry-637299108/).
