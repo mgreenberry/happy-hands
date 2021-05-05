@@ -49,7 +49,7 @@ This website must be engaging for the target audience and contain the informatio
 * [Project creation](#project-creation)
 * [Deployment of existing site](#deployment-of-existing-site)
 * [Forking](#forking)
-* [Cloning & Implementing Locally](#cloning&implementing-locally)
+* [Cloning & Implementing Locally](#cloning-&-implementing-locally)
 6. [Credits](#credits)
 * [Content](#content)
 * [Media](#media)
