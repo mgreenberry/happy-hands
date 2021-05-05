@@ -250,14 +250,14 @@ Every page contains the following features in the footer: -
 
 Also every page contains a yellow border to separate each section
 
-#### index
+#### index.html
 * This page contains 3 sections as follows: -
   1. **Communicate with British Sign Language** - An image of BSL. This allows users to understand what is being taught by the business. The additional text explains what Happy Hands offer regarding British Sign Language (BSL) content.
   2. **Our Courses** - An image of a women being taught BSL via video conferencing. This allows users to understand that the lessons are online. The text supports this message with additional information.
   3. **Our Company** - An image of some hands doing the love sign (ASL). This section is to briefly introduce the company to the user.
 * There is a call-out button under the **Our Course** and **Our Company** sections to direct users to other pages in the website. The first ca button allows users to find out more information about the lessons and prices of the courses offered. The second ca button allows users to find out more about the tutors that teach the BSL classes. Both buttons require user input to work.
 
-#### lessons
+#### lessons.html
 * This page contains 4 sections as follows: -
   1. **Children's Courses Under 7** - An image of a small girl doing BSL. This allows users to quickly identify which course is most suitable for them or thier child/children. The additional text and sample videos provide further information and confirmation of the users and business owner's desired expectations.
   2. **Children's Courses 8 to 13** - An image of a young girl doing BSL. This allows users to quickly identify which course is most suitable for them or thier child/children. The additional text and sample videos provide further information and confirmation of the users and business owner's desired expectations.
@@ -265,7 +265,7 @@ Also every page contains a yellow border to separate each section
   4. **Adult Courses** - An image of an muslim woman learning BSL. This allows users to see that the adult courses are suitable for any adults, any age, and any religion, without discrimination. The additional text and sample videos provide further information and confirmation of this.
 * There is a call-out butotn at the bottom of this page under the **Adult Courses**. This allows users to access the free content, such as more video content, and downloadable packs such as fingerspelling/alphabet charts.
 
-#### tutors
+#### tutors.html
 * This page contains 3 sections as follows: -
   1. **Teacher Michael** - An image of Michael. This allows users to see who will be teaching the **Young Adult** and **Adult** lessons. The additional text allows users to quickly identify what experience and qualifications the tutor has.
     * There are also reviews under the text. This allows users to see what other users have said about the lessons and business.
@@ -274,25 +274,25 @@ Also every page contains a yellow border to separate each section
 * **Our Prices** - This allows users to see how long and how much individual lessons cost. These prices are slightly lower than average in this field. 
 * There is a call-out button under the **Our Prices** which encourages the user to contact the business. This allows the user to contact the business to find out more information or preferably to book lessons.
 
-#### free-content
+#### free-content.html
 * This page contains 2 sections as follows: -
   1. **Free Alphabet/Fingerspelling Downloadable sheets**. This allows users to download, save and review this free downloadable content. This will enable users to practice some aspects of BSL and the aim of the business is to whet the users appetite to learn more
     * There is a call-out button under this section which allows users to access more free content from a supporting website. This allows users to download more content and possibly make purchases from the new site. (Presently this links to an outside company that supplied the free content in the website)
   2. **Free Video Lesson**. This allows users to watch and learn how to do numbers in BSL. The user also can control this video from YouTube using the buttons contained in the embedded file. This lends itself to a better user experience.
 
-#### contact-us
+#### contact-us.html
 * This page contains 1 section as follows: -
   1. A contact form with 'First Name', 'Last Name', 'Email Address' and 'Message' fields. This allows the user to input their information and find out more details, ask questions or book lessons with the business.
 * There are 2 call-out buttons under this form. The first button **Reset** resets the form in case of user input error. The second button **Submit** allows the user to send their form to the business. On doing this they will be taken to a new page to show that submitting the form has been successful. Users will need to provide information in all fields, with a valid @ email address in order to be able to submit forms. This allows the business to only recieve valid customer comments.
 
-#### success
+#### success.html
 * This page is not linked to the **Home Page** or **Navigation Bar**
 * This page is only accessed on completion of a valid and correctly filled in form which the user has submitted on the #contact-us.html form.
 * This page contains the following section: -
   * A Thank You image and message. This allows the user to know that they have submitted thier form sucessfully on the contact-us.html form section.
   * There is 1 call-out button under this form. This allows the user to return to the form page that they last interacted with
 
-#### 404
+#### 404.html
 * This page is not linked to any other page in the website
 * This page is only accessed if a user types an incorrect web address in the browser navigation bar
 * This page contains the following section: -
