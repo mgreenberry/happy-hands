@@ -44,7 +44,7 @@ This website must be engaging for the target audience and contain the informatio
    * [Framework Library](#framework-library)
    * [Tools](#tools)
    * [Testing Tools](#testing-tools)
-4. [Testing](#TESTING.md)
+4. [Testing](TESTING.md)
 5. [Deployment](#deployment)
    * [Project creation](#project-creation)
    * [Deployment of existing site](#deployment-of-existing-site)
