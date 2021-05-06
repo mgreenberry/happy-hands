@@ -180,6 +180,13 @@ nav img {
     border: 2px solid navy;
 }
 
+.review-highlight-box {
+    background-color: #FFE66D;
+    border: 2px solid navy;
+    padding: 1rem;
+    margin: 1rem;
+}
+
 .link-text {
     font-size: 1.6rem;
     color: black;
@@ -202,12 +209,13 @@ nav img {
     height: 100%;
 }
 
-/*FOOTER*/
 .yellow {
     color: #FFE66D;
     text-align: center;
     vertical-align: middle;
 }
+
+/*FOOTER*/
 
 .container .footer-background {
     background-color: rgba(0, 78, 255, 0.5)
