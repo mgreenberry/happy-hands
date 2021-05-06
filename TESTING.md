@@ -239,9 +239,9 @@ Verdict: - Working as intended
 ### success
 There is one 'call-out' button: -
 1. This button allows the user to return back to the **contact-us.html** page
-   * Expectation: - Clicking on the 'Contact Us' text takes user to the 'Contact Us' (contact-us.html) page for them to fill in a form.
-   * Test: - Clicked the 'Contact Us' and was taken to the 'Contact Us' (contact-us.html) page. 
-   * Result: - Each time the text was clicked the used was directed to the 'Contact Us' (contact-us.html) page. This was texted on all pages, including the success.html and 404.html pages.
+   * Expectation: - Clicking on the 'call-out' button directs the user back to the 'Contact Us' (contact-us.html) page
+   * Test: - Clicked the 'call-out' button
+   * Result: - I was taken to the 'Contact Us' (contact-us.html) page
    * Verdict: - Working as intended
 
 ### 404
