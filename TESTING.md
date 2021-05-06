@@ -30,7 +30,7 @@
   * [tutors.html](/assets/images/testing-images/tutors.html.pdf)
   * [free-content.html](/assets/images/testing-images/free-content.html.pdf)
   
-  The following pages had no html errors as the main content and code of these pages were created after the initial testing of the firt four pages.
+  The following pages had no html errors as the main content and code of these pages were created after the initial testing of the first four pages.
   * contact-us.html![](/assets/images/testing-images/http-no-errors.png)
   * success.html![](/assets/images/testing-images/http-no-errors.png)
   * 404.html![](/assets/images/testing-images/http-no-errors.png)
@@ -130,11 +130,14 @@ The most common path through the website is: -
    * Result: - Clicking this link opened a new tab to and entered a zoom room
    * Verdict: - Working as intended
 
+[Back to content](#table-of-contents)
+
+## Buttons
+
 **Some of the website pages contain 'call-out' buttons which help a user to navigate to a particular web page.** 
 
 These buttons are placed in individual sections of some pages to encourage user interactivity. For example: -
 
-[Back to content](#table-of-contents)
 ### index
 
 This has three 'call-out' buttons: -
@@ -453,36 +456,37 @@ This then gave me the final button design I had wanted: -
 The navigation bar was not responsive and wouldn't move down when scrolling (sticky). I had tried adding a 'sticky-top' to my code in several places to try to make it work as intended. It took me quite a few tries but eventually I had a working 'sticky' nav bar.
 
 * Original nav bar code with 'header class="container fixed"': -
-> <header class="container fixed">
-        <nav class=“navbar navbar-expand-lg navbar-dark bg-primary”>
-            <a class=“navbar-brand” href=“index.html”>
-                <img class=“happy-hands” src=“assets/images/logos-images/happy-hands.jpg” alt=“Happy Hands Logo”></a>
-            <h6 class=“yellow”>Happy Hands</h6>
-            <button class=“navbar-toggler” type=“button” data-toggle=“collapse” data-target=“#navbarSurpportedContent”
+        
+        <header class="container fixed">
+            <nav class=“navbar navbar-expand-lg navbar-dark bg-primary”>
+                <a class=“navbar-brand” href=“index.html”>
+                    <img class=“happy-hands” src=“assets/images/logos-images/happy-hands.jpg” alt=“Happy Hands Logo”></a>
+                <h6 class=“yellow”>Happy Hands</h6>
+                <button class=“navbar-toggler” type=“button” data-toggle=“collapse” data-target=“#navbarSurpportedContent”
                 aria-controls=“navbarSurpportedContent” aria-expanded=“false” aria-label=“Toggle navigation”>
-                <span class=“navbar-toggler-icon”></span>
-            </button>
-            <div class=“collapse navbar-collapse justify-content-end” id=“navbarSurpportedContent”>
-                <ul class=“nav-centre navbar-nav”>
-                    <li class=“nav-item active”>
-                        <a class=“nav-link” href=“index.html”>Home</a>
-                    </li>
-                    <li class=“nav-item”>
-                        <a class=“nav-link” href=“lessons.html”>Lessons</a>
-                    </li>
-                    <li class=“nav-item”>
-                        <a class=“nav-link” href=“tutors.html”>Tutors</a>
-                    </li>
-                    <li class=“nav-item”>
-                        <a class=“nav-link” href=“free-content.html”>Free Content</a>
-                    </li>
-                    <li class=“nav-item”>
-                        <a class=“nav-link” href=“contact-us.html”>Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+                   <span class=“navbar-toggler-icon”></span>
+                </button>
+                <div class=“collapse navbar-collapse justify-content-end” id=“navbarSurpportedContent”>
+                    <ul class=“nav-centre navbar-nav”>
+                        <li class=“nav-item active”>
+                            <a class=“nav-link” href=“index.html”>Home</a>
+                        </li>
+                        <li class=“nav-item”>
+                            <a class=“nav-link” href=“lessons.html”>Lessons</a>
+                        </li>
+                        <li class=“nav-item”>
+                            <a class=“nav-link” href=“tutors.html”>Tutors</a>
+                        </li>
+                        <li class=“nav-item”>
+                            <a class=“nav-link” href=“free-content.html”>Free Content</a>
+                        </li>
+                        <li class=“nav-item”>
+                            <a class=“nav-link” href=“contact-us.html”>Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
 I tried adding 'class="sticky-top" to all aspects of the navigation bar and had the following unusual results: -
 
@@ -490,9 +494,12 @@ I tried adding 'class="sticky-top" to all aspects of the navigation bar and had 
 ![](assets/images/testing-images/nav-too-big.png)
 
 Until thankfully I managed to get it all to work: -
+
 ![](assets/images/testing-images/nav-working.png)
+
 My final code with 'nav class="sticky-top"' at the beginning of this code: -
-> <nav class="sticky-top">
+
+    <nav class="sticky-top">
         <div class="container navbar-dark navbar navbar-expand-lg bg-primary">
             <a class="navbar-brand" href="index.html">
                 <img class="happy-hands" src="assets/images/logos-images/happy-hands.jpg" alt="Happy Hands Logo"></a>

@@ -109,8 +109,8 @@ For this website and business I looked online for family friendly sign language 
   12. Design a reviews and testimonials section
   13. Design a footer with contact details such as address, phone number and location via a map 
   14. Design a link in the footer to a Zoom call for BSL users and video content
-  15. Design a section within the lessons.html page with information on prices and times
-  16. Design a seciton within the tutors.html and index.html which offers confirmation of checks and tutor information
+  15. Design a section within the tutors.html page with information on prices and times
+  16. Design a section within the tutors.html and index.html which offers confirmation of checks and tutor information
 
 * As a user returning to the site:
   1. I want to be able to watch video content provided by the business
@@ -231,12 +231,12 @@ I then added a '404.html. page for when the user enters an incorrect page addres
 Every page contains the following features at the top of the website as standard: -
 * A [logo](/assets/images/logos-images/happy-hands.jpg) of Happy Hands to the left of the Navigation bar. Allows all users back to the home page by clicking the logo.
 * Text as a header reading "Happy Hands"
-* A responsive navigation bar, which reduces into a 'burger' navigation bar on mobiles. Allows all users to click on the page they want and access said page easily. Each navigaiton bar has the following links: -
+* A responsive navigation bar, which reduces into a 'hamburger' navigation bar on mobiles. Allows all users to click on the page they want and access said page easily. Each navigation bar has the following links: -
   1. index.html - allows users to access the home page by clicking the home (index.html) text
   2. lessons.html - allows users to access the lessons offered by the business by clicking the lessons text
   3. tutors.html - allows users to access the tutors and see who teaches the lessons and the prices by clicking the tutors text
   4. free-content.html - allows users to access the free content available on the website and to download some free resources by clicking the Free Content page
-  5. contact-us.html - allows users to make contact with the business by fillign in a form and pressing submit. This will open a success page with a thank you message. Users can also clear the form if they make errors and re-submit correct details if required.
+  5. contact-us.html - allows users to make contact with the business by filling in a form and pressing submit. This will open a success page with a thank you message. Users can also clear the form if they make errors and re-submit correct details if required.
 * A hero image, or main image of Happy Hands.
 * A strapline, or header, which gives the title of the page being visited
 
@@ -257,15 +257,15 @@ Also every page contains a yellow border to separate each section
   1. **Communicate with British Sign Language** - An image of BSL. This allows users to understand what is being taught by the business. The additional text explains what Happy Hands offer regarding British Sign Language (BSL) content.
   2. **Our Courses** - An image of a women being taught BSL via video conferencing. This allows users to understand that the lessons are online. The text supports this message with additional information.
   3. **Our Company** - An image of some hands doing the love sign (ASL). This section is to briefly introduce the company to the user.
-* There is a call-out button under the **Our Course** and **Our Company** sections to direct users to other pages in the website. The first ca button allows users to find out more information about the lessons and prices of the courses offered. The second ca button allows users to find out more about the tutors that teach the BSL classes. Both buttons require user input to work.
-* 
+* There is a call-out button under the **Our Course** and **Our Company** sections to direct users to other pages in the website. The first 'call-out' button allows users to find out more information about the lessons and prices of the courses offered. The second 'call-out' button allows users to find out more about the tutors that teach the BSL classes. Both buttons require user input to work.
+
 #### lessons
 * This page contains 4 sections as follows: -
   1. **Children's Courses Under 7** - An image of a small girl doing BSL. This allows users to quickly identify which course is most suitable for them or thier child/children. The additional text and sample videos provide further information and confirmation of the users and business owner's desired expectations.
   2. **Children's Courses 8 to 13** - An image of a young girl doing BSL. This allows users to quickly identify which course is most suitable for them or thier child/children. The additional text and sample videos provide further information and confirmation of the users and business owner's desired expectations.
   3. **Young Adult Courses 14 to 18** - An image of a teenage girl doing BSL. This allows users to quickly identify which course is most suitable for them or thier child/children. The additional text and sample videos provide further information and confirmation of the users and business owner's desired expectations.
   4. **Adult Courses** - An image of an muslim woman learning BSL. This allows users to see that the adult courses are suitable for any adults, any age, and any religion, without discrimination. The additional text and sample videos provide further information and confirmation of this.
-* There is a call-out butotn at the bottom of this page under the **Adult Courses**. This allows users to access the free content, such as more video content, and downloadable packs such as fingerspelling/alphabet charts.
+* There is a call-out button at the bottom of this page under the **Adult Courses**. This allows users to access the free content, such as more video content, and downloadable packs such as fingerspelling/alphabet charts.
 
 #### tutors
 * This page contains 3 sections as follows: -
