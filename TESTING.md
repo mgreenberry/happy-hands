@@ -48,9 +48,9 @@ All CSS code was put through the W3C Validation Service. The following message w
   * [lessons.html](/assets/images/testing-images/lighthouse-lessons-1st.png)
   * [tutors.html](/assets/images/testing-images/lighthouse-tutors-1st.png)
   * [free-content.html](/assets/images/testing-images/lighthouse-free-content-1st.png)
-  * [contact-us.html](/assets/images/testing-images/lighthouse-contact-us-1st.png)
+  * contact-us.html(test missing)
     * [success.html](/assets/images/testing-images/lighthouse-success-1st.png)
-    * [404.html]((/assets/images/testing-images/lighthouse-404-1st.png))
+    * [404.html](/assets/images/testing-images/lighthouse-404-1st.png)
 
 The main issues were the performance and Best Practices which both scored under 90% on all pages. The errors were mainly that the pictures were too big and that external links had no 'rel' values. 
 
@@ -60,10 +60,10 @@ I fixed this by reducing the sizes of the images used and by adding 'rel="noopen
 * [index.html](/assets/images/testing-images/lighthouse-index-2nd.png)
 * [lessons.html](/assets/images/testing-images/lighthouse-lessons-2nd.png)
 * [tutors.html](/assets/images/testing-images/lighthouse-tutors-2nd.png)
-* [free-content.html](/assets/images/testing-images/lighthouse-free-content-2nd.png)
+* [free-content.html](assets/images/testing-images/lighthouse-free-content-2nd.png)
 * [contact-us.html](/assets/images/testing-images/lighthouse-contact-us-2nd.png)
-   * [success.html](/assets/images/testing-images/lighthouse-success-2nd.png)
-   * [404.html]((/assets/images/testing-images/lighthouse-404-2nd.png))
+   * [success.html](assets/images/testing-images/lighthouse-success-2nd.png)
+   * [404.html](/assets/images/testing-images/lighthouse-404-2nd.png)
 
 After the fixes described above all scores accross all pages were over 90% with my index.html scoring 94%. With more time and manipulation I think I could have got all scores over 95%. Most of the issues were in Best Practices for the image used in the nav bar and hero-image, as well as some cookie issues with the videos in both the lessons and free-content.html.
  
@@ -376,6 +376,7 @@ The Hero Image
    ![](assets/images/testing-images/hi-image-error.png) 
    
   * This was even worse on a mobile device: -
+
    ![](assets/images/testing-images/hi-mobile.png)
  
         .hero-image {
@@ -523,3 +524,5 @@ My final code with 'nav class="sticky-top"' at the beginning of this code: -
             </div>
     </nav>
 END OF TESTING.md
+
+[Back to content](#table-of-contents)
