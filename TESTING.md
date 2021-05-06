@@ -530,6 +530,5 @@ My final code with 'nav class="sticky-top"' at the beginning of this code: -
                 </ul>
             </div>
     </nav>
-END OF TESTING.md
 
 [Back to content](#table-of-contents)
