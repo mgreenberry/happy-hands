@@ -18,7 +18,7 @@ This website must be engaging for the target audience and contain the informatio
 ![Mockup](/assets/images/readme-images/website-various-devices.png)
 
 ## Table of contents
-1. [UX - User Experience](#ux)
+1. [UX - User Experience](#ux-user-experience)
   * [Project Goals](#project-goals)
   * [User Stories](#user-stories)
   * [Design Choices](#design-choices)
@@ -168,7 +168,7 @@ All other images were sourced from www.shutterstock.com as part of a free trial 
 
 * download.html
 
-  1. Fingerspelling/Alphabet download and images: [left](assets/images/logos-images/lh-alphabet.jpg) and [right](assests/images/logos-images/rh-alphabet.jpg) hand alphabet fingerspelling documents/images by [Cath Smith](https://www.letssign.co.uk)
+  1. Fingerspelling/Alphabet download and images: [left](assets/images/logos-images/lh-alphabet.jpg) and [right](assets/images/logos-images/rh-alphabet.jpg) hand alphabet fingerspelling documents/images by [Cath Smith](https://www.letssign.co.uk)
 
 * success.html
 
@@ -188,24 +188,24 @@ However, the 404.html and the success.html pages are not accessed from the navig
 
 [Back to content](#table-of-contents)
 ## Wireframes
-I have attached mock ups of the original ideas and final design ideas before I used Wireframes to create a prototype. These initial drawings and ideas are [here](/assests/images/readme-images/inital-ideas.pdf)
+I have attached mock ups of the original ideas and final design ideas before I used Wireframes to create a prototype. These initial drawings and ideas are [here](/assets/images/readme-images/inital-ideas.pdf)
 
 I used Balsamiq to create my wireframes. I chose to do a mobile version first with the pages I wanted and then create a desktop version after. I did this as this was going to be the way I designed my website, mobile first.
 
 The following wireframes:
 
 Samsung Phone
-* [index.html](/assets/images/readme-images/hhmobile-index.png)
-* [lessons.html](/assets/images/readme-images/hhmobile-lessons.png)
-* [faqandcontact.html](/assets/images/readme-images/hhmobile-faq-contactus)
+* [index.html](assets/images/readme-images/hhmobile-index.png)
+* [lessons.html](assets/images/readme-images/hhmobile-lessons.png)
+* [faqandcontact.html](assets/images/readme-images/hhmobile-faq-contactus.png)
 
 Apple iPad
 * I didn't create an iPad version before I started my website but once I had an index.html, I went back to finalise my design.
 
 Generic laptop
-* [index.html](/assets/images/readme-images/hhdesktop-index.png)
-* [lessons.html](/assets/images/readme-images/hhdesktop-lessons.png)
-* [faqandcontact.html](/assets/images/readme-images/hhdesktop-faq-contact)
+* [index.html](assets/images/readme-images/hhdesktop-index.png)
+* [lessons.html](assets/images/readme-images/hhdesktop-lessons.png)
+* [faqandcontact.html](assets/images/readme-images/hhdesktop-faq-contact.png)
 
 Once I started to create my website I realised I needed a lot more content and that I wanted to have a separate page for the contact-us section. I also decided to add a tutor.html, success.html for the form and a 404.html for wrong address input:
 
@@ -435,7 +435,7 @@ This [Bootstrap - Nav Bar](https://getbootstrap.com/docs/5.0/components/navbar/)
         </nav>
 
 #### CSS
->   .navbar-toggler-icon {
+    .navbar-toggler-icon {
     /* From Bootstrap*/
     display: inline-block;
     width: 5em;
@@ -443,31 +443,33 @@ This [Bootstrap - Nav Bar](https://getbootstrap.com/docs/5.0/components/navbar/)
     vertical-align: middle;
     content: "";
     background: 50%/100% 100% no-repeat;
-}
+    }
 
 [Bootstrap - Buttons](https://getbootstrap.com/docs/5.0/components/buttons/) was used to provide ideas and some code was used and adapted to create my buttons (call-outs).
 > .btn {/*influenced by Bootstrap*/}
 
 The Hero image by itself was too bright for the strapline and heading. To adjust the **'background-image'** I adapted some code found at [CSS-Tricks.com](https://css-tricks.com/almanac/properties/b/background-image/).
-> .hero-image {
-    background: url(../images/logos-images/happy-hands.jpg) no-repeat center center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.40),
+     
+     .hero-image {
+     background: url(../images/logos-images/happy-hands.jpg) no-repeat center center;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.40),
             rgba(0, 0, 0, 0.40)),
         url(../images/logos-images/happy-hands.jpg);
-    /*background-image influenced by css-tricks.com*/
-    background-size: cover;
-    height: 36rem;
-    width: 100%;
-    position: relative;
-}
+     /*background-image influenced by css-tricks.com*/
+     background-size: cover;
+     height: 36rem;
+     width: 100%;
+     position: relative;
+     }
 
 The YouTube videos were not responsive when the screen was changed from a mobile device to a laptop. To adjust the size of the video and make it responsive for all devices I used part of the code found at [Stack Overflow](https://stackoverflow.com/questions/35814653/automatic-height-when-embedding-a-youtube-video/54924505#54924505)
-> .video {
+
+    .video {
     /* Credit - https://stackoverflow.com/a/54924505 */
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
-}
+    }
 
 [Back to content](#table-of-contents)
 ## Acknowledgements
