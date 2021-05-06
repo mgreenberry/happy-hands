@@ -19,44 +19,44 @@ This website must be engaging for the target audience and contain the informatio
 
 ## Table of contents
 1. [UX - User Experience](#ux-user-experience)
-  * [Project Goals](#project-goals)
-  * [User Stories](#user-stories)
-  * [Design Choices](#design-choices)
-    * [Typography](#typography)
-    * [Colours](#colours)
-    * [Imagery](#imagery)
-    * [Icons](#icons)
-    * [Layout](#layout)
-  * [Wireframes](#wireframes)
+   * [Project Goals](#project-goals)
+   * [User Stories](#user-stories)
+   * [Design Choices](#design-choices)
+     * [Typography](#typography)
+     * [Colours](#colours)
+     * [Imagery](#imagery)
+     * [Icons](#icons)
+     * [Layout](#layout)
+   * [Wireframes](#wireframes)
 2. [Features](#features)
-* [Existing Features](#existing-features)
-  * [All Pages](#all-pages)
-  * [index](#index)
-  * [lessons](#lessons)
-  * [tutors](#tutors)
-  * [free-content](#free-content)
-  * [contact-us](#contact-us)
-  * [success](#success)
-  * [404](#404)
-* [Features Left To Implement](#features-left-to-implement)
+   * [Existing Features](#existing-features)
+     * [All Pages](#all-pages)
+     * [index.html](#index)
+     * [lessons.html](#lessons)
+     * [tutors.html](#tutors)
+     * [free-content.html](#free-content)
+     * [contact-us.html](#contact-us)
+     * [success.html](#success)
+     * [404.html](#404)
+   * [Features Left To Implement](#features-left-to-implement)
 3. [Technologies Used](#technologies-used)
-* [Languages](#languages)
-* [Framework Library](#framework-library)
-* [Tools](#tools)
-* [Testing Tools](#testing-tools)
-4. [Testing](#testing)
+   * [Languages](#languages)
+   * [Framework Library](#framework-library)
+   * [Tools](#tools)
+   * [Testing Tools](#testing-tools)
+4. [Testing](#TESTING.md)
 5. [Deployment](#deployment)
-* [Project creation](#project-creation)
-* [Deployment of existing site](#deployment-of-existing-site)
-* [Forking](#forking)
-* [Cloning and Implementing Locally](#cloning-and-implementing-locally)
+   * [Project creation](#project-creation)
+   * [Deployment of existing site](#deployment-of-existing-site)
+   * [Forking](#forking)
+   * [Cloning and Implementing Locally](#cloning-and-implementing-locally)
 6. [Credits](#credits)
-* [Content](#content)
-* [Media](#media)
-* [Icons](#icons)
-* [Code](#code)
-  * [HTPS](#https)
-  * [CSS](#css)
+   * [Content](#content)
+   * [Media](#media)
+   * [Icons](#icons)
+   * [Code](#code)
+     * [HTPS](#https)
+     * [CSS](#css)
 7. [Acknowledgements](#acknowledgements)
 8. [Author Information](#author-information)
 
@@ -216,6 +216,10 @@ As I wanted to include this on all formats and devices I created my wireframes a
 * [tutors.html](/assets/images/readme-images/tutors.html.png)
 * [download.html](/assets/images/readme-images/download.html.png)
 * [contact-us.html](/assets/images/readme-images/contact-us.html.png)
+
+I then added a 'success.html' page for when the user submitted a completed form. I didn't design a wireframe for this.
+
+I then added a '404.html. page for when the user enters an incorrect page address in the browser. I didn't create a wireframe for this page.
 
 [Back to content](#table-of-contents)
 ## Features
@@ -446,7 +450,18 @@ This [Bootstrap - Nav Bar](https://getbootstrap.com/docs/5.0/components/navbar/)
     }
 
 [Bootstrap - Buttons](https://getbootstrap.com/docs/5.0/components/buttons/) was used to provide ideas and some code was used and adapted to create my buttons (call-outs).
-> .btn {/*influenced by Bootstrap*/}
+
+    .btn {
+    /*influenced by Bootstrap*/
+    background-color: #FFFB0F;
+    border: 2px solid #3066BE;
+    border-radius: 2rem;
+    color: #3066BE;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: .5rem;
+    }
 
 The Hero image by itself was too bright for the strapline and heading. To adjust the **'background-image'** I adapted some code found at [CSS-Tricks.com](https://css-tricks.com/almanac/properties/b/background-image/).
      
