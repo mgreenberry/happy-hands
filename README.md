@@ -79,7 +79,7 @@ For this website and business I looked online for family friendly sign language 
 * As a user visiting the site for the first time:
   1. I want to be able to use the website on any device I own or use
   2. I want to able to learn and easily understand what the website is about
-  3. I want to easily understand about the language and the courses provided
+  3. I want to easily understand about the courses provided
   4. I want an attractive home page introducing HAPPY HANDS
   5. I want to click on navigation links to be taken to the correct page/section and to be able to return to the home page or another page without using the brower forward/backward buttons
   6. I want these navigation links to include user friendly menus which are easy to uderstand and use
@@ -188,8 +188,6 @@ However, the 404.html and the success.html pages are not accessed from the navig
 
 [Back to content](#table-of-contents)
 ## Wireframes
-I undertook a number of steps to design this website. I have created a breakdown of some of the tasks completed each day in this [document](/assets/images/readme-images/website-design-steps)
-
 I have attached mock ups of the original ideas and final design ideas before I used Wireframes to create a prototype. These initial drawings and ideas are [here](/assests/images/readme-images/inital-ideas.pdf)
 
 I used Balsamiq to create my wireframes. I chose to do a mobile version first with the pages I wanted and then create a desktop version after. I did this as this was going to be the way I designed my website, mobile first.
