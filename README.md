@@ -188,7 +188,7 @@ However, the 404.html and the success.html pages are not accessed from the navig
 
 [Back to content](#table-of-contents)
 ## Wireframes
-I have attached mock ups of the original ideas and final design ideas before I used Wireframes to create a prototype. These initial drawings and ideas are [here](/assets/images/readme-images/inital-ideas.pdf)
+I have attached mock ups of the original ideas and final design ideas before I used Wireframes to create a prototype. These initial drawings and ideas are [here](assets/images/readme-images/inital-ideas.pdf)
 
 I used Balsamiq to create my wireframes. I chose to do a mobile version first with the pages I wanted and then create a desktop version after. I did this as this was going to be the way I designed my website, mobile first.
 
