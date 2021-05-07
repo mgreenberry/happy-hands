@@ -184,7 +184,9 @@ This website is designed with access from the home page to all other pages from 
 
 However, the 404.html and the success.html pages are not accessed from the navigation bar or from any of the pages of the website. The 404.html page only displays when a user enters or searches for a page that doens't exist. The success.html page only displays when a user has sucessfully completed the contact form in contact-us.html. Both the 404.html and the success.html pages allow the user to navigate to the main website.
 
-![blueprint](/assets/images/readme-images/website-layout-plans.jpg) This blueprint was then used to design the navigation and call-out buttons featured in the website.
+![blueprint](/assets/images/readme-images/website-layout-plans.jpg) 
+
+This blueprint was then used to design the navigation and call-out buttons featured in the website.
 
 [Back to content](#table-of-contents)
 ## Wireframes
