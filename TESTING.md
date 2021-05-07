@@ -534,7 +534,7 @@ My final code with 'nav class="sticky-top"' at the beginning of this code: -
             </div>
     </nav>
     
-    ### Footer Errors
+### Footer Errors
     
 Footer text would show yellow. However, on clicking the text and then returning to the original page, the text was now black. The issue was a piece of css code over riding the desired effect. This was deleted.
 
