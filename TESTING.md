@@ -310,7 +310,7 @@ The following are the User Stories from the README.md page and the resulting Tes
       * Verdict: - Success
   13. I want to access contact information, such as address, phone numbers and location
       * Test: - To click and be directed to a map and a phone call
-      * Result: - A map loads but doesn not have an address marked. This was corrected by supplying the address in the text for this clickable link.
+      * Result: - A map loads but doesn't not have an address marked. This was corrected by supplying the address in the text for this clickable link.
       * Verdict: - Phone number successful. Map required some additional work - corrected by having address as text.
   14. I want to be able to access this information if I am deaf and rely on BSL
       * Test: - To click and be directed to a video call
