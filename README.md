@@ -135,12 +135,12 @@ I've chosen the font-family: ['Roboto'](https://fonts.google.com/specimen/Roboto
 
 #### Colours
 
-For this website I chose a colour pallette that matched similar websites that are colourful and child friendly. The background colour is Aqua, the headers is navy and menus, some text and buttons are yellow as a good contrast to the main colour.
+For this website I chose a colour pallette that matched similar websites that are colourful and child friendly. The background colour is Cyan, the Nav bar and button text is Cobalt Blue and menus, some text and buttons are Corn yellow as a good contrast to the main colour.
 
 The colours I picked are as follows: -
-![Coolors Palette](/assets/images/readme-images/website-colours.jpg)
+![Coolors Palette](assets/images/readme-images/website-colours.png)
 
-From: [Coolors Palette](https://coolors.co/cbf3f0-ffe66d-3066be)
+From: [Coolors Palette](https://coolors.co/1446a0-ccfbfe-f2e86d)
 
 #### Imagery
 
