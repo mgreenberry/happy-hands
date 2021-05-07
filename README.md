@@ -13,7 +13,7 @@ I created this static website to provide a fun and engaging way of learning Brit
 
 The website targets both parents/guardians and their children, along with other adults or children, who would like to learn British Sign Language. The goal of this website is to provide information on British Sign Language, offer lessons at all ages in the family and provide them with sample videos and tutor information to give them confidence in returning to the website and booking lessons and courses provided by the business owener.
 
-This website must be engaging for the target audience and contain the information needed to complet the goals of the business owner and site visitors. It must also stand out and be memorable for future visits and for recommendations to other families or potential users.
+This website must be engaging for the target audience and contain the information needed to complete the goals of the business owner and site visitors. It must also stand out and be memorable for future visits and for recommendations to other families or potential users.
 
 ![Mockup](/assets/images/readme-images/website-various-devices.png)
 
