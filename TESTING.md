@@ -66,6 +66,8 @@ I fixed this by reducing the sizes of the images used and by adding 'rel="noopen
    * [404.html](/assets/images/testing-images/lighthouse-404-2nd.png)
 
 After the fixes described above all scores accross all pages were over 90% with my index.html scoring 94%. With more time and manipulation I think I could have got all scores over 95%. Most of the issues were in Best Practices for the image used in the nav bar and hero-image, as well as some cookie issues with the videos in both the lessons and free-content.html.
+
+I also noticed that running more than one lighthouse test on each page delivered a different set of results, so was unsure if any extra work on these pages, would have a major inpact on my scores.
  
 ### Desktop
 * [index.html](assets/images/testing-images/desktop-index.html.png)
