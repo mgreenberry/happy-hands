@@ -22,6 +22,7 @@
    * [Hero Image](#hero-image)
    * [Buttons](#buttons)
    * [Navigation Bar](#navigation-bar)
+   * [Footer Errors](#footer-errors)
 
 ## Validation Testing
 * [html testing with W3C Markup Validation Service](https://validator.w3.org/)
@@ -532,5 +533,9 @@ My final code with 'nav class="sticky-top"' at the beginning of this code: -
                 </ul>
             </div>
     </nav>
+    
+    ### Footer Errors
+    
+Footer text would show yellow. However, on clicking the text and then returning to the original page, the text was now black. The issue was a piece of css code over riding the desired effect. This was deleted.
 
 [Back to content](#table-of-contents)
